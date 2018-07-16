@@ -3,8 +3,9 @@
 			<h1>Enter Your Details Sir</h1>
 			<%= simple_form_for @work do |f| %>
 				<%= f.input :name %> 
-				<%= f.input :email_address %> 
-				<%= f.input :new_message %> 
+				<%= f.input :address %> 
+				<%= f.input :email %>
+				<%= f.input :message %> 
 				<br />
 				<%= f.submit 'Contact Me', class: 'btn btn-primary' %>
 			<% end %>
