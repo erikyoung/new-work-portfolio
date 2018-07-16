@@ -1,0 +1,204 @@
+
+
+
+@import "bootstrap";
+@import "font-awesome";
+
+body {
+	margin: 0 auto;
+}
+
+
+.intro-message {
+	color: #f8f8f8;
+	background: black;
+	opacity: 0.9;
+	margin: 15px ;
+	padding: 25px;
+	display:inline-block;
+	vertical-align: middle; 
+}
+
+
+
+
+
+.main-carousel {
+	
+	width: 100vw;
+	min-height: 600px;
+	background-image: url("top-down-vietnam.jpg");
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	position:fixed;
+	
+	text-align: center;
+}
+
+.intro-message > h1 {
+	margin:0;
+
+	text-shadow: 2px 2px 3px rgba(0,0,0,.6);
+	font-size: 5em;
+}
+
+.intro-message > h3 {
+	text-shadow: 2px 2px 3px rgba(0,0,0,.6);
+}
+
+h3 {
+	font-size: 24px;
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border:0;
+}
+
+.list-inline {
+	padding-left: 0;
+	list-style: none;
+	margin-left: -5px;
+
+}
+
+.list-inline > li {
+	display: inline-block;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.featured-artwork-box {
+	margin-top: 600px;
+	background-color: #fff;
+}
+
+.header {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-size: 17px;
+	font-family: 'Times New Roman';
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.featured-art {
+	padding: 0 8px;
+	margin-bottom: 200px;
+	display: inline-block;
+	height: 325px;
+}
+
+
+
+
+
+.img-thumbnail:hover {
+	-moz-box-shadow: 0 0 9px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 9px rgba(0,0,0,0.5);
+	box-shadow: 0 0 9px rgba(0,0,0,0.5);
+	
+}
+
+.featured-art > .img-fluid {
+	display:inline-block;
+}
+
+.featured-artwork-top {
+	margin-bottom: 20px;
+}
+
+a {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.artist-name {
+	color: #fff;
+	font-weight: heavier;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+
+}
+
+.artist-info {
+	background-color:#848484;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 0px;
+	cursor:pointer;
+	padding-right: 10px;
+
+	
+}
+
+#portfolios {
+	margin-left: 80px;
+}
+
+.port-desc-lite {
+	float:right;
+}
+
+.artwork-name {
+	font-size: 13px;
+	font-weight: 200;
+	color: #fff;
+	font-weight: 200;
+}
+
+.port-desc {
+	font-size: 12px;
+	font-weight: 200;
+	color: #fff;
+	}
+
+.artwork-medium {
+	font-size: 12px;
+	font-weight: 200;
+	color: #fff;
+
+}
+
+.artwork-year {
+	color:#fff;
+}
+
+@media (min-width: 768px) {
+	.col-6 {
+		width: 50%;
+	}
+}
+
+@media (min-width: 768px) {
+	.col-6 {
+		float:left;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

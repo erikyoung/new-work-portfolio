@@ -1,0 +1,54 @@
+
+
+
+
+<div class="container">
+	<div class="row">
+		<h1 class="simple-title-for-app col-xs-12 col-sm-12 col-lg-12">Portfolios</h1>	
+<% @works.each do |work| %> 
+		<div class="box-for-app col-xs-6 col-sm-6">
+			<h1 id="name-of-app"><%= work.name %></h1>
+			<p><%= work.description %> </p>
+		</div><!-- col-xs-6 col-sm-6 --> 
+<hr />
+<% end %> 
+	</div> <!-- row -->
+</div> <!-- container -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <%= image_tag 'slider11.jpg', class: 'd-block img-fluid' %>
+    <div class="carousel-caption d-none d-md-block">
+    	<h3>Order To Go</h3>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag 'hero.jpg', class: 'd-block img-fluid' %>
+    <div class="carousel-caption d-none d-md-block">
+    	<h3>Connect With Friends</h3>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag 'slider4.jpg', class: 'd-block img-fluid' %>
+    <div class="carousel-caption d-none d-md-block">
+    	<h3>Mission Saigon: Find Food</h3>
+    </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
