@@ -6,5 +6,6 @@ Rails.application.routes.draw do
  get 'about', to: 'works#about'
  get 'portfolio', to: 'works#index'
  get 'contact', to: 'works#contact'
+ get 'resume', to: 'works#resume'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

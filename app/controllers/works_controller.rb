@@ -7,9 +7,14 @@ class WorksController < ApplicationController
 		@work = Work.new
 	end
 
+
+
 	def create
 		Work.create(work_params)
 		redirect_to root_path
+	end
+
+	def edit
 	end
 
 	private
