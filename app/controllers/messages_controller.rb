@@ -9,8 +9,15 @@ class MessagesController < ApplicationController
     @message = Message.new(message_params)
 
     if @message.valid?
-      redirect_to new_message_url, notice: "Message received, thanks!"
+      
+      
+        redirect_to new_message_url
+     
+
+      
+      flash[:notice] =  "Message received, thanks!"
     else
+      flash[:notice] = "There was an error sending your message."
       render :new
     end
   end
