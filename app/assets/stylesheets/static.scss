@@ -13,6 +13,7 @@ body {
 	color: #f8f8f8;
 	background: black;
 	opacity: 0.9;
+	border-radius: 10px; 
 	margin: 15px ;
 	padding: 25px;
 	display:inline-block;
@@ -82,6 +83,7 @@ ul {
 .featured-artwork-box {
 	margin-top: 600px;
 	background-color: #fff;
+	
 }
 
 .header {
@@ -91,11 +93,10 @@ ul {
 	font-family: 'Times New Roman';
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	text-align: center; 
 }
 
-.text-center {
-	text-align: center;
-}
+
 
 .featured-art {
 	padding: 0 8px;
@@ -108,16 +109,9 @@ ul {
 
 
 
-.img-thumbnail:hover {
-	-moz-box-shadow: 0 0 9px rgba(0,0,0,0.5);
-	-webkit-box-shadow: 0 0 9px rgba(0,0,0,0.5);
-	box-shadow: 0 0 9px rgba(0,0,0,0.5);
-	
-}
 
-.featured-art > .img-fluid {
-	display:inline-block;
-}
+
+
 
 .featured-artwork-top {
 	margin-bottom: 20px;
@@ -147,13 +141,9 @@ a {
 	
 }
 
-#portfolios {
-	margin-left: 80px;
-}
 
-.port-desc-lite {
-	float:right;
-}
+
+
 
 .artwork-name {
 	font-size: 13px;
@@ -179,18 +169,7 @@ a {
 	color:#fff;
 }
 
-@media (min-width: 768px) {
-	.col-6 {
-		width: 50%;
-	}
-}
 
-@media (min-width: 768px) {
-	.col-6 {
-		float:left;
-
-	}
-}
 
 
 
