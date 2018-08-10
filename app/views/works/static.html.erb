@@ -90,32 +90,37 @@
 			<div class="row">
 				<div class="card-deck mt-5">
 					<div class="card">
-				<a href="https://snapchat-erik.herokuapp.com/" target="_blank">
-				<%= image_tag("dating.jpg", class: 'img-thumbnail', style:  "display:inline-block;float:right;") do %> 
-				</a>
-				<% end %> 
+						<div class="card-header bg-transparent">
+							<a href="https://snapchat-erik.herokuapp.com/" target="_blank">
+								<%= image_tag("dating.jpg", class: 'img-fluid') do %> 
+							</a>
+							<% end %> 
+						</div><!--card-header-->
+			<div class="card-footer bg-secondary special" style="background-color:#848484;">
 				<p class="artist-info">
-					<span class="artist-name">Erik Young</span>
-				<em class="port-desc-lite">
-					<a href="https://snapchat-erik.herokuapp.com/" target="_blank">
-						<span class="artwork-name">SimpleChat</span>
+					<em class="port-desc-lite">
+						<a href="https://snapchat-erik.herokuapp.com/" target="_blank">
+							<span class="artwork-name">SimpleChat</span>
+						</a>
+						<span class="artwork-year">2016</span>
+					</em>
+					<br />
+					<span class="port-desc">A web app for sending and receiving messages to people who have accounts</span>
+					<br />
+					<span class="artwork-medium">HTML | CSS | JS | Ruby on Rails </span>
 					</a>
-					<span class="artwork-year">2016</span>
-				</em>
-				<br />
-				<span class="port-desc">A web app for sending and receiving messages to people who have accounts</span>
-				<br />
-				<span class="artwork-medium">HTML | CSS | JS | Ruby on Rails </span>
-				</a>
-			</p>
+				</p>
+			</div><!--card-footer-->
 		</div><!-- card -->
-			<div class="col-6 featured-art">
-			<a href="https://datingspot.herokuapp.com/" target="_blank">
-				<%= image_tag("hands.jpg", class: 'img-thumbnail', style:  "display:inline-block;float:right;") do %>
-				</a>
-				<% end %> 
+			<div class="card">
+				<div class="card-header bg-transparent">
+					<a href="https://datingspot.herokuapp.com/" target="_blank">
+					<%= image_tag("hands.jpg", class: 'img-fluid') do %>
+					</a>
+					<% end %> 
+				</div><!--card-header-->
+			<div class="card-footer bg-secondary special" style="background-color: #848484;">
 				<p class="artist-info">
-					<span class="artist-name">Erik Young</span>
 				<em class="port-desc-lite">
 					<a href="https://datingspot.herokuapp.com/" target="_blank">
 						<span class="artwork-name">DatingSpot</span>
@@ -127,38 +132,53 @@
 				<br />
 				<span class="artwork-medium">HTML | CSS | JS | Ruby on Rails </span>
 				</a>
-			</p>
-		</div><!-- featured-art -->
+				</p>
 
-				</div><!--card-deck-->
-			</div><!--row-->
-		</div><!--container--> 
-		<div class="col-6 featured-art">
-			<a href="https://todo-erik.herokuapp.com/" target="_blank">
-				<%= image_tag("portfolio.jpg", class: 'img-thumbnail', style:  "display:inline-block;float:right;") do %> 
-			</a>
-				<% end %> 
-				<p class="artist-info">
-					<span class="artist-name">Erik Young</span>
-				<em class="port-desc-lite">
+
+				</div><!--card--footer-->
+			</div><!-- card -->
+		</div><!--card-deck-->
+	</div><!--row-->
+</div><!--container--> 
+
+<div class="container">
+	<div class="row">
+		<div class="card-deck mt-5 mb-5">
+			<div class="card">
+				<div class="card-header bg-transparent">
 					<a href="https://todo-erik.herokuapp.com/" target="_blank">
-						<span class="artwork-name">Test-Driven Developed Web App</span>
+						<%= image_tag("portfolio.jpg", class: 'img-fluid') do %> 
 					</a>
-					<span class="artwork-year">2017</span>
-				</em>
-				<br />
-				<span class="port-desc">A JS-based web app built on top of Rails.Much of this app focused on the use of RSpec</span>
-				<br />
-				<span class="artwork-medium">HTML | CSS | JS | Ruby on Rails</span>
-			</p>
-		</div><!-- featured-art -->
-		<div class="col-6  featured-art">
-			<a href="http://front-end-html-css-clone-apple.bitballoon.com/" target="_blank">
-				<%= image_tag("apple-computer.jpg", class: 'img-thumbnail', style:  "display:inline-block;float:right;") do %> 
+						<% end %> 
+				</div><!--card-header-->
+			<div class="card-footer bg-secondary special" style="background-color: #848484;">
+					<p class="artist-info">
+					
+					<em class="port-desc-lite">
+						<a href="https://todo-erik.herokuapp.com/" target="_blank">
+							<span class="artwork-name">Test-Driven Developed Web App</span>
+						</a>
+						<span class="artwork-year">2017</span>
+					</em>
+					<br />
+					<span class="port-desc">A JS-based web app built on top of Rails.Much of this app focused on the use of RSpec</span>
+					<br />
+					<span class="artwork-medium">HTML | CSS | JS | Ruby on Rails</span>
+				</p>
+			</div><!--card-->
+			</div><!-- card-footer -->
+
+
+		<div class="card">
+			<div class="card-header bg-transparent">
+				<a href="http://front-end-html-css-clone-apple.bitballoon.com/" target="_blank">
+				<%= image_tag("apple-computer.jpg", class: 'img-fluid') do %> 
 				</a>
 				<% end %> 
+			</div>
+			<div class="card-footer bg-secondary special" style="background-color: #848484;">
 				<p class="artist-info">
-					<span class="artist-name">Erik Young</span>
+					
 				<em class="port-desc-lite">
 					<a href="http://front-end-html-css-clone-apple.bitballoon.com/" target="_blank">
 						<span class="artwork-name">Apple Computer Site Clone</span>
@@ -171,9 +191,20 @@
 				<span class="artwork-medium">HTML | CSS</span>
 				</a>
 			</p>
-		</div><!-- featured-art -->
+
+			</div><!--card-->
+			</div><!--card-footer-->
+
+		
+		</div><!--card-deck-->
+	</div><!--row-->
+</div><!--container-->
+
+
+
+			</div><!-- featured-art -->
 		</div><!--featured-artwork-top -->
-		</div><!--portfolios -->
+	</div><!--portfolios -->
 </div><!--featured-artwork -->
 
 
