@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
 	root 'works#static' 
- 	resources :works
+   resources :works
+   resources :designs
 
  get 'static', to: 'works#static'
  get 'about', to: 'works#about'
