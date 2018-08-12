@@ -133,14 +133,31 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 #change-size {
 	width: 100%;
-	height: 318px; 
+	height: 300px; 
 
+}
+
+.img-fluid {
+	cursor:pointer; 
+	opacity: 0.5;
+
+}
+
+.img-fluid:hover {
+	opacity: 1; 
+	background:#53a7ea;
 }
 
 #change-mirror-size {
 	width: 100%;
-	height: 318px; 
+	height: 300px; 
 }
+
+
+
+
+
+
 
 .erik-button {
 	align-items: center; 
