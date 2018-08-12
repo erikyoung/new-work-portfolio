@@ -3,6 +3,7 @@
   <head>
     <title>PersonalPortfolioSite</title>
     <%= csrf_meta_tags %>
+    <link rel="icon" href="square_logo.png"  sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
     <script src="https://use.fontawesome.com/4d2ab3f1e4.js"></script>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -15,7 +16,10 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" <%= link_to 'Erik Young', root_path %></a>
+      
+        <%= link_to image_tag("square_logo.png", id: 'nav-pic'), root_path  %> 
+        
+      
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
