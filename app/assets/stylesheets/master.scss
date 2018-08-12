@@ -155,11 +155,21 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin-bottom: 30px; 
 }
 
+.carousel-inner > .carousel-item > img {
+    padding: 20px 20px;
+    height: 350px;
+    width: 50%;
+	margin: auto;
+	margin-top: 30px; 
+}
+
 #nav-pic {
 	width: 45px;
 	height: 40px; 
 	margin-right: 20px; 
 }
+
+
 
 
 
