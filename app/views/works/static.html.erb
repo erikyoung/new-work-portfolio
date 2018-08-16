@@ -1,6 +1,7 @@
 <div class="main-carousel">
 	<div class="container">
 		<div class="row">
+	
 				<div class="col-6 mx-auto intro-message">
 					<h1><span id="e">E</span>rik Young</h1>
 					<h3>UX/UI Front-end Developer</h3>
@@ -37,7 +38,8 @@
 			<div class="card mb-auto">
 			
 				<div class="card-header bg-transparent">
-						<%= image_tag("mirror_update.png", class: 'img-fluid', id: "change-mirror-size") do %> 
+				<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s" ) do %>
+						<%= image_tag("mirror_update.png", class: 'img-fluid', id: "change-mirror-size")  %> 
 					
 						<% end %> 
 				</div><!--card-header-->
@@ -65,7 +67,8 @@
 		
 		<div class="card mb-auto">
 			<div class="card-header bg-transparent">
-				<%= image_tag("boom.png", class: 'img-fluid', id: "change-size") do %> 
+			<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
+				<%= image_tag("boom.png", class: 'img-fluid', id: "change-size")  %> 
 				<% end %> 
 			</div>
 			<div class="card-footer bg-secondary special" style="background-color: #848484;">
@@ -126,7 +129,8 @@
 			<div class="card">
 				<div class="card-header bg-transparent">
 					<a href="https://restaurant-erik.herokuapp.com/" target="_blank">
-						<%= image_tag("slider11.jpg", class: 'img-fluid') do %> 
+					<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
+						<%= image_tag("slider11.jpg", class: 'img-fluid') %> 
 					</a>
 					<% end %> 
 				</div><!--card-header--> 
@@ -154,7 +158,8 @@
 		<div class="card">
 			<div class="card-header bg-transparent">
 				<a href="https://nomster.herokuapp.com/" target="_blank">
-					<%= image_tag("hero.jpg", class: 'img-fluid') do %> 
+				<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
+					<%= image_tag("hero.jpg", class: 'img-fluid')  %> 
 				</a>
 				<% end %> 
 			</div><!--card-header--> 
@@ -184,7 +189,8 @@
 					<div class="card">
 						<div class="card-header bg-transparent">
 							<a href="https://snapchat-erik.herokuapp.com/" target="_blank">
-								<%= image_tag("dating.jpg", class: 'img-fluid') do %> 
+							<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
+								<%= image_tag("dating.jpg", class: 'img-fluid') %> 
 							</a>
 							<% end %> 
 						</div><!--card-header-->
@@ -207,7 +213,8 @@
 			<div class="card">
 				<div class="card-header bg-transparent">
 					<a href="https://datingspot.herokuapp.com/" target="_blank">
-					<%= image_tag("hands.jpg", class: 'img-fluid') do %>
+					<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
+					<%= image_tag("hands.jpg", class: 'img-fluid')  %>
 					</a>
 					<% end %> 
 				</div><!--card-header-->

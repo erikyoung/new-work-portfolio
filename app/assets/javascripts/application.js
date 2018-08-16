@@ -10,6 +10,13 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
+
+
+
+
+
+//= require scrollReveal
 //= require jquery
 //= require jquery_ujs
 //= require rails-ujs
@@ -18,3 +25,8 @@
 //= require tether
 //= require bootstrap-sprockets
 //= require_tree .
+
+
+$(function() {
+    window.scrollReveal = new scrollReveal();
+  });
