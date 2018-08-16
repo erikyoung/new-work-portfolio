@@ -10,6 +10,7 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require loading_screen
  *= require_tree .
  *= require_self
  */
@@ -18,3 +19,5 @@
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+/* <%= loading_screen style: :dotted_spinner, background: '#122344', hide: '1200s' %> */
