@@ -36,15 +36,15 @@ $(function() {
 
   $(function(){
     $("#typed").typed({
-      strings: ["Erik", "Young"],
+      strings: ["Erik Young"],
       // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
       stringsElement: null,
       // typing speed
-      typeSpeed: 30,
+      typeSpeed: 110,
       // time before typing starts
       startDelay: 1200,
       // backspacing speed
-      backSpeed: 20,
+      backSpeed: 30,
       // time before backspacing
       backDelay: 500,
       // loop
@@ -52,7 +52,7 @@ $(function() {
       // false = infinite
       loopCount: 5,
       // show cursor
-      showCursor: false,
+      showCursor: true,
       // character for cursor
       cursorChar: "|",
       // attribute to type (null == text)
