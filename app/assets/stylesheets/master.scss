@@ -20,6 +20,39 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #333;
 }
 
+#typed-cursor {
+	font-weight: 200; 
+	opacity: 1;
+    -webkit-animation: blink 1.2s infinite;
+    -moz-animation: blink 1.2s infinite;
+    animation: blink 1.2s infinite;
+    animation-name: blink;
+    animation-duration: 1.2s;
+    animation-timing-function: initial;
+    animation-delay: initial;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+	
+}
+
+ 
+
+@keyframes blink {
+	0% {
+		opacity: 0; 
+	}
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0; 
+	}
+
+}
+
 
 
 #resume-page {
