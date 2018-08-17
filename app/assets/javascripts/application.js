@@ -15,7 +15,7 @@
 
 
 
-//= require loading_screen
+
 //= require scrollReveal
 //= require jquery
 //= require jquery_ujs
