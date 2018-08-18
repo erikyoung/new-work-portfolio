@@ -19,6 +19,8 @@
 //= require scrollReveal
 //= require jquery
 //= require jquery_ujs
+//= require sweetalert2
+//= require sweet-alert2-rails
 //= require rails-ujs
 //= require turbolinks
 //= require typed
