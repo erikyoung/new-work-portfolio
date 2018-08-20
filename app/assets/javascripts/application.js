@@ -12,9 +12,10 @@
 //
 
 
-
+//= require jquery.slick
 
 //= require sweetalert2
+//= require pace/pace
 //= require scrollReveal
 //= require jquery
 //= require jquery_ujs
@@ -24,6 +25,7 @@
 //= require popper
 //= require tether
 //= require bootstrap-sprockets
+
 //= require sweet-alert-confirm
 //= require_tree .
 
@@ -71,5 +73,4 @@ $(function() {
   });
 
   
-
-  
+ 

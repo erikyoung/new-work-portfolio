@@ -11,9 +11,10 @@ gem 'devise'
 gem "figaro"
 gem "scrollreveal-rails" 
 gem 'typedjq-rails'
+gem "jquery-slick-rails"
 gem 'jquery-justified-gallery-rails'
 gem 'rails-assets-sweetalert2', source: 'https://rails-assets.org'
-
+gem 'pace-rails'
 gem 'sweet-alert'
 gem 'sweet-alert-confirm'
 gem 'mailgun-ruby', '~>1.1.6'
