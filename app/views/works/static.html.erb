@@ -192,6 +192,7 @@
 
 		<div class="container">
 			<div class="row">
+			
 				<div class="card-deck mt-5 mb-5">
 					<div class="card">
 						<div class="card-header bg-transparent">
@@ -244,18 +245,20 @@
 				</div><!--card--footer-->
 			</div><!-- card -->
 		</div><!--card-deck-->
+		
 	</div><!--row-->
 </div><!--container--> 
 
 
 <div class="text-center">
     <div class="col-12 text-center">
-	<a class="btn btn-primary btn-lg btn-block col-10 text-center" id="button" <%= link_to 'See More Web Dev Projects', portfolio_path %></a>
-    </div>
+	<a class="btn btn-primary btn-lg btn-block col-10 text-center" id="button" <%= link_to 'See More Web Dev Projects', portfolio_path, data: { confirm: 'Mate, you sure you wanna see this?'} %></a>
+	
+    </div>									
  </div>
 
 
-
+ 
 
 
 

@@ -3,6 +3,8 @@ class WorksController < ApplicationController
 		@works = Work.all
 	end
 
+	
+
 	def contact
 		@work = Work.new
 	end

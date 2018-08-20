@@ -14,19 +14,17 @@
 
 
 
-
-
+//= require sweetalert2
 //= require scrollReveal
 //= require jquery
 //= require jquery_ujs
-//= require sweetalert2
-//= require sweet-alert2-rails
 //= require rails-ujs
 //= require turbolinks
 //= require typed
 //= require popper
 //= require tether
 //= require bootstrap-sprockets
+//= require sweet-alert-confirm
 //= require_tree .
 
 
@@ -71,4 +69,7 @@ $(function() {
       resetCallback: function() {}
     });
   });
+
+  
+
   
