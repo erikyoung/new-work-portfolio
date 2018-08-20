@@ -12,11 +12,11 @@
 //
 
 
-//= require jquery.slick
+
 
 //= require sweetalert2
-//= require pace/pace
 //= require scrollReveal
+//= require pace/pace
 //= require jquery
 //= require jquery_ujs
 //= require rails-ujs
