@@ -21,7 +21,7 @@
 //= require jquery_ujs
 //= require jquery.turbolinks 
 //= require turbolinks
-//= require turbolinks-compatability
+
 //= require rails-ujs
 //= require typed
 //= require popper
