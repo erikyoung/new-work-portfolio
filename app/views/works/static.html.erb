@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 		
-				<div class="col-6 mx-auto intro-message">
+				<div class="col-7 mx-auto px-2 intro-message">
 				
 					<h1><span id='typed'>Erik Young</span><span id="typed-cursor">|</span></h1>
 				
@@ -44,7 +44,7 @@
 			
 				<div class="card-header bg-transparent">
 				<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s" ) do %>
-						<%= image_tag("mirror.jpg", class: 'img-fluid', id: "change-mirror-size")  %> 
+						<%= image_tag("mirror.jpg", class: 'img-fluid')  %> 
 					
 						<% end %> 
 				</div><!--card-header-->
@@ -73,7 +73,7 @@
 		<div class="card mb-3">
 			<div class="card-header bg-transparent">
 			<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
-				<%= image_tag("hw.jpg", class: 'img-fluid', id: "change-size")  %> 
+				<%= image_tag("hw.jpg", class: 'img-fluid')  %> 
 				<% end %> 
 			</div>
 			<div class="card-footer bg-secondary special" style="background-color: #848484;">
@@ -202,21 +202,21 @@
 							</a>
 							<% end %> 
 						</div><!--card-header-->
-			<div class="card-footer bg-secondary special" style="background-color:#848484;">
-				<p class="artist-info">
-					<em class="port-desc-lite">
-						<a href="https://snapchat-erik.herokuapp.com/" target="_blank">
-							<span class="artwork-name">SimpleChat</span>
+				<div class="card-footer bg-secondary special" style="background-color:#848484;">
+					<p class="artist-info">
+						<em class="port-desc-lite">
+							<a href="https://snapchat-erik.herokuapp.com/" target="_blank">
+								<span class="artwork-name">SimpleChat</span>
+							</a>
+							<span class="artwork-year">2016</span>
+						</em>
+						<br />
+						<span class="port-desc">A web app for sending and receiving messages to people who have accounts</span>
+						<br />
+						<span class="artwork-medium">HTML | CSS | JS | Ruby on Rails </span>
 						</a>
-						<span class="artwork-year">2016</span>
-					</em>
-					<br />
-					<span class="port-desc">A web app for sending and receiving messages to people who have accounts</span>
-					<br />
-					<span class="artwork-medium">HTML | CSS | JS | Ruby on Rails </span>
-					</a>
-				</p>
-			</div><!--card-footer-->
+					</p>
+				</div><!--card-footer-->
 		</div><!-- card -->
 			<div class="card mb-3">
 				<div class="card-header bg-transparent">
