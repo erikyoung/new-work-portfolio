@@ -1,55 +1,132 @@
-<div class="flex-content-container" id="design-background">
-<div id="demo" class="carousel slide carousel-fade" data-ride="carousel" data-pause data-wrap="true" data-interval="3000">
+<div class="row">
+		<div id="portfolios" class="col-12">
+			<p class="header">UX Designs</p>
+			
+		</div>
+	</div><!--row-->
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
+<div class="container">
+	<div class="row">
+	
+		<div class="card-deck mt-5 mb-5">
+		
+			<div class="card mb-3">
+			
+				<div class="card-header bg-transparent">
+				<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s" ) do %>
+						<%= image_tag("mirror.jpg", class: 'img-fluid')  %> 
+					
+						<% end %> 
+				</div><!--card-header-->
+				
+			<div class="card-footer bg-secondary special" style="background-color: #848484;">
+					<p class="artist-info">
+					
+					<em class="port-desc-lite">
+						
+							<span class="artwork-name">ECommerce Web Design Case Study</span>
+						
+						<span class="artwork-year">2018</span>
+					</em>
+					<br />
+					<span class="port-desc">A comprehensive case study of an online clothing store</span>
+					<br />
+					
+					<span class="artwork-medium">Sketch | PhotoShop | Invision  </span>
+				</p>
+		
+				
+			</div><!--card-->
+			</div><!-- card-footer -->
 
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    
-      <%= image_tag("slider4.jpg", :class => "img-thumbnail") do %>    
-      <% end %> 
-    
-    <div class="carousel-caption">
-        <h3>Spotify</h3>
-        <p>Adding a Feature to Existing App: A Case Study</p>
-    </div>
+		
+		<div class="card mb-3">
+			<div class="card-header bg-transparent">
+			<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
+				<%= image_tag("hw.jpg", class: 'img-fluid')  %> 
+				<% end %> 
+			</div>
+			<div class="card-footer bg-secondary special" style="background-color: #848484;">
+				<p class="artist-info">
+					
+				<em class="port-desc-lite">
+					
+						<span class="artwork-name">HW Tracker</span>
+					
+					<span class="artwork-year">2018</span>
+				</em>
+				<br />
+				<span class="port-desc">Drag and Drop Student Feedback on Assignments for Teachers</span>
+				<br />
+				<span class="artwork-medium">Sketch | PhotoShop | Invision | User Testing</span>
+				</a>
+			</p>
+			
+			</div><!--card-->
+			</div><!--card-footer-->
+			
+			
+		</div><!--card-deck-->
+		
+	</div><!--row-->
+</div><!--container-->
 
-      
-    </div>
-    <div class="carousel-item">
-    <%= image_tag("slider11.jpg", :class => "img-thumbnail") do %>    
-        <% end %> 
-        <div class="carousel-caption">
-            <h3>Zeit</h3>
-            <p>VR Time Travel Booking Case Study</p>
-        </div>
-    </div>
-    <div class="carousel-item">
-    <%= image_tag("mirror_update.png", :class => "img-thumbnail") do %>    
-        <% end %> 
-        <div class="carousel-caption">
-            <h3>ECommerce Shopping</h3>
-            <p>Online Shopping Case Study</p>
-        </div>
-    </div>
-  </div>
+<div class="container">
+	<div class="row">
+		<div class="card-deck">
+			<div class="card mb-3">
+				<div class="card-header bg-transparent">
+					<a href="https://restaurant-erik.herokuapp.com/" target="_blank">
+					<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
+						<%= image_tag("slider11.jpg", class: 'img-fluid') %> 
+					</a>
+					<% end %> 
+				</div><!--card-header--> 
+				
+				<div class="card-footer bg-secondary special" style="background-color: #848484;">
+				<p class="artist-info">
+				
+			<em class="port-desc-lite">
+				<a href="https://restaurant-erik.herokuapp.com/" target="_blank">
+					<span class="artwork-name">Food N Stuff</span>
+				
+				<span class="artwork-year">2017</span>
+			</em>
+			<br />
+			<span class="port-desc">A web app for ordering food online from a local restaurant</span>
+			<br />
+			<span class="artwork-medium">HTML | CSS | JS | Ruby on Rails </span>
+			</a>
+		</p>
+					
+		</div><!--card-footer-->
+	</div> <!--card-->
 
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
 
-</div>
-</div>
-
-
-
+		<div class="card mb-3">
+			<div class="card-header bg-transparent">
+				<a href="https://nomster.herokuapp.com/" target="_blank">
+				<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
+					<%= image_tag("hero.jpg", class: 'img-fluid')  %> 
+				</a>
+				<% end %> 
+			</div><!--card-header--> 
+			<div class="card-footer bg-secondary special" style="background-color: #848484;">
+				<p class="artist-info">
+					<em class="port-desc-lite">
+						<a href="https://nomster.herokuapp.com/" target="_blank">
+							<span class="artwork-name">Nomster</span>
+						
+						<span class="artwork-year">2016</span>
+					</em>
+					<br />
+					<span class="port-desc">A web app for reviewing restaurants and providing suggestions in your neighborhood</span>
+					<br />
+					<span class="artwork-medium">HTML | CSS | JS | Ruby on Rails </span>
+					</a>
+				</p>
+			</div><!--card-footer-->
+		</div><!--card-->
+		</div> <!--card-deck-->
+	</div> <!--row--> 
+</div> <!--container-->
