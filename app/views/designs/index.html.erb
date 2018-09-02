@@ -5,19 +5,26 @@
 		</div>
 	</div><!--row-->
 
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 	
-		<div class="card-deck mt-5 mb-5">
+		<div class="card-deck">
 		
-			<div class="card mb-3">
+			<div class="card">
 			
-				<div class="card-header bg-transparent">
-				<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s" ) do %>
-						<%= image_tag("mirror.jpg", class: 'img-fluid')  %> 
-					
-						<% end %> 
-				</div><!--card-header-->
+      <div class="card-header bg-transparent">
+      <div class="hovereffect">
+          <%= scroll_reveal(animation: "enter bottom, after 0.3s") do %> 
+						<%= image_tag("SpotifyMockupScreen.jpeg", class: 'img-fluid')  %> 
+            <div class="overlay">
+              <p>
+                <a href="#">LINK HERE</a>
+              </p>
+             </div>
+        </div>
+            <% end %> 
+           
+			</div><!--card-header-->
 				
 			<div class="card-footer bg-secondary special" style="background-color: #848484;">
 					<p class="artist-info">
@@ -40,12 +47,19 @@
 			</div><!-- card-footer -->
 
 		
-		<div class="card mb-3">
-			<div class="card-header bg-transparent">
+		<div class="card">
+      <div class="card-header bg-transparent">
+      <div class="hovereffect">
 			<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
-				<%= image_tag("hw.jpg", class: 'img-fluid')  %> 
+        <%= image_tag("zeit.jpg", class: 'img-fluid', style:"height:386px;width:578px;")  %> 
+        <div class="overlay">
+              <p>
+                <a href="#">LINK HERE</a>
+              </p>
+             </div>
+      </div><!--hovereffect-->
 				<% end %> 
-			</div>
+			
 			<div class="card-footer bg-secondary special" style="background-color: #848484;">
 				<p class="artist-info">
 					
@@ -71,15 +85,22 @@
 	</div><!--row-->
 </div><!--container-->
 
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 		<div class="card-deck">
-			<div class="card mb-3">
-				<div class="card-header bg-transparent">
+			<div class="card">
+        <div class="card-header bg-transparent">
+        <div class="hovereffect">
 					<a href="https://restaurant-erik.herokuapp.com/" target="_blank">
 					<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
-						<%= image_tag("slider11.jpg", class: 'img-fluid') %> 
-					</a>
+            <%= image_tag("slider11.jpg", class: 'img-fluid') %> 
+            <div class="overlay">
+              <p>
+                <a href="#">LINK HERE</a>
+              </p>
+             </div>
+          </a>
+        </div><!--hovereffect-->
 					<% end %> 
 				</div><!--card-header--> 
 				
@@ -103,13 +124,20 @@
 	</div> <!--card-->
 
 
-		<div class="card mb-3">
-			<div class="card-header bg-transparent">
+		<div class="card">
+      <div class="card-header bg-transparent">
+      <div class="hovereffect">
 				<a href="https://nomster.herokuapp.com/" target="_blank">
 				<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
-					<%= image_tag("hero.jpg", class: 'img-fluid')  %> 
+          <%= image_tag("hero.jpg", class: 'img-fluid')  %> 
+          <div class="overlay">
+              <p>
+                <a href="#">LINK HERE</a>
+              </p>
+             </div>
 				</a>
-				<% end %> 
+        <% end %> 
+      </div><!--hovereffect-->
 			</div><!--card-header--> 
 			<div class="card-footer bg-secondary special" style="background-color: #848484;">
 				<p class="artist-info">
