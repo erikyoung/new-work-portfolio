@@ -13,8 +13,11 @@
 		<div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3">
       <div class="hovereffect">
 
-          <%= scroll_reveal(animation: "enter bottom, after 0.3s") do %> 
-						<%= link_to image_tag("SpotifyMockupScreen.jpeg",  class: 'img-thumbnail', style:"height:391px;")  %> 
+          <%= link_to scroll_reveal(animation: "enter bottom, after 0.3s") do %>
+            
+              <%= link_to image_tag("SpotifyMockupScreen.jpeg", class: 'img-thumbnail', style:"height:391px;")  %> 
+            
+            <%= link_to cases_path do %> 
             <div class="overlay">
               <p class="artist-info">
                 <em class="port-desc">
@@ -24,11 +27,12 @@
                 <span class="port-desc">Adding A New Feature To An Existing App</span>
                 <br />
                 <span class="artwork-medium">Research | Information Architecture | Wireframing | Usability Testing | Iteration | </span>
-                </a>
+              
               </p><!--artist-info-->
                 
              </div><!--overlay-->
-          </a>
+             <% end %> 
+        
         </div>
             
       <% end %> 
@@ -43,6 +47,7 @@
 				
 				<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
           <%= image_tag("zeit.jpg", class: 'img-thumbnail', style:"height:391px;")  %> 
+          <%= link_to zeit_path do %> 
           <div class="overlay">
               <p class="artist-info">
                 <em class="port-desc-lite">
@@ -52,12 +57,12 @@
                 <span class="port-desc">Designing a VR Time Travel Web Application</span>
                 <br />
                 <span class="artwork-medium">Competitive Analysis | Primary & Secondary Research | Persona Mapping | Information Arch | User Stories | Wireframing | Usability Testing  </span>
-                </a>
+                
               </p><!--artist-info-->
                 
              </div>
-           
-          </a>
+           <% end %> 
+          
           </div><!--hovereffect-->
         <% end %> 
 		</div>
@@ -76,6 +81,7 @@
 					
 					<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
             <%= image_tag("hw.jpg", class: 'img-thumbnail') %> 
+            <%= link_to hw_path do %> 
             <div class="overlay">
               <p class="artist-info">
                 <em class="port-desc-lite">
@@ -85,11 +91,11 @@
                 <span class="port-desc">A mobile app which allows teachers to provide templated feedback to assignments</span>
                 <br />
                 <span class="artwork-medium">Research | User Stories | User Flow & Navigation | Wireframing | Usability Testing </span>
-                </a>
+                
               </p><!--artist-info-->
                 
              </div>
-          </a>
+          <% end %> 
         </div><!--hovereffect-->
 					<% end %> 
 			
@@ -102,6 +108,7 @@
 				
 				<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
           <%= image_tag("mirror.jpg", class: 'img-thumbnail')  %> 
+          <%= link_to mirror_path do %> 
           <div class="overlay">
               <p class="artist-info">
                 <em class="port-desc-lite">
@@ -111,11 +118,11 @@
                 <span class="port-desc">Design for a mobile application which allows for browsing and online purchasing</span>
                 <br />
                 <span class="artwork-medium">Competitive Analysis | Primary & Secondary Research | Information Arch | Wireframing | Usability Testing </span>
-                </a>
+                
               </p><!--artist-info-->
                 
              </div>
-          </a>
+          <% end %> 
           </div><!--hovereffect-->
         <% end %> 
 		</div>
