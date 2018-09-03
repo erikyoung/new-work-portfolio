@@ -108,10 +108,6 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 
 
-.about-erik {
-	margin-top: 10px;
-
-}
 
 
 
@@ -146,11 +142,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	flex-direction: row; 
 }
 
-#change-size {
-	width: 100%;
-	height: 300px; 
 
-}
 
 .img-fluid {
 	cursor:pointer; 
@@ -270,13 +262,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-align: center; 
 }
 
-.text-center {
-	display: flex;
-	justify-content: center;
-	align-items: center; 
-	cursor:pointer;
-	margin-bottom: 30px; 
-}
+
 
 .carousel-inner > .carousel-item > img {
     padding: 20px 20px;
@@ -317,9 +303,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
 }
 
-#contact-stuff {
-	padding: 20px; 
-}
+
 
 .style_image {
 	height: 18px;
