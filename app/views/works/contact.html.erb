@@ -1,13 +1,16 @@
 
-		<div class="booyah-box col-8 offset-2">
-			<h1>Let's Keep in Contact</h1>
-			<%= simple_form_for @work do |f| %>
-				<%= f.input :name %> 
-				<%= f.input :address %> 
-				<%= f.input :email, placeholder: 'user@domain.com' %>
-				<%= f.input :message, placeholder: "I'm contacting you about..." %> 
-				<br />
-				<%= f.submit 'Contact Me', class: 'btn btn-primary' %>
-			<% end %>
+		<div class="container">
+			<div class="row">
+			<div class="col-10 offset-1 mt-5 align-items-center">
+				<h1 class="text-center">Let's Keep in Contact</h1>
+				<%= simple_form_for @work do |f| %>
+					<%= f.input :name %> 
+					<%= f.input :address %> 
+					<%= f.input :email, placeholder: 'user@domain.com' %>
+					<%= f.input :message, placeholder: "I'm contacting you about..." %> 
+					<br />
+					<%= f.submit 'Contact Me', class: 'btn btn-primary btn-lg btn-block' %>
+				<% end %>
+			</div>
 		</div><!--top-banner--> 
 	
