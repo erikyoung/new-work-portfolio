@@ -130,7 +130,7 @@ a {
 }
 
 .artist-info {
-	background-color:#848484;
+	
 	padding: 10px 10px 10px 10px;
 	
 	cursor:pointer;
@@ -144,22 +144,23 @@ a {
 
 
 .artwork-name {
-	font-size: 13px;
+	font-size: 40px;
 	font-weight: 200;
 	color: #fff;
 	font-weight: 200;
 }
 
 .port-desc {
-	font-size: 12px;
+	font-size: 20px;
 	font-weight: 200;
 	color: #fff;
 	}
 
 .artwork-medium {
-	font-size: 12px;
+	font-size: 20px;
 	font-weight: 200;
 	color: #fff;
+	display: block;
 
 }
 
