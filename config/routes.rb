@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
  get 'static', to: 'works#static'
  get 'about', to: 'works#about'
+ get 'cases', to: 'designs#cases'
  get 'portfolio', to: 'works#index'
  get 'contact', to: 'works#contact'
  get 'resume', to: 'works#resume'
