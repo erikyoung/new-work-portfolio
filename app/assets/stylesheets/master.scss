@@ -353,7 +353,19 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 .card {
 	min-width: 400px !important;
+	-webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08)!important;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08)!important;
+    -webkit-transition: all .15s ease!important;
+    transition: all .15s ease!important;
 	
+}
+
+.card:hover {
+	-moz-transform: translate(-2px, -2px);
+    -ms-transform: translate(-2px, -2px);
+    -o-transform: translate(-2px, -2px);
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px)
 }
 
 
