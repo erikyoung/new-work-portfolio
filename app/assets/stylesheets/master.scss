@@ -41,6 +41,43 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
 
+.form-text {
+	position: relative;
+    bottom: 15px;
+}
+
+.new_work {
+	margin: 0px; 
+}
+
+.form-group {
+	margin: 0px;
+	
+}
+
+.default_class {
+	margin: 0px; 
+}
+
+.my_class {
+	margin-bottom: 0px; 
+	
+}
+
+.work_name {
+	margin: 0; 
+	
+}
+
+.labels {
+	font-size: 25px; 
+}
+
+#work_name, #work_address, #work_email, #work_message {
+	border: 2px solid black; 
+	padding: 10px; 
+}
+
 .psychology-list {
 	list-style-type: none; 
 }
