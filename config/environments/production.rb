@@ -1,6 +1,18 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-   config.action_mailer.default_url_options = { host: 'erikyoung-portfolio.herokuapp.com/' }             
+   config.action_mailer.default_url_options = { host: 'http://erikyoungwebdesigner.ml/' } 
+   
+   config.action_mailer.delivery_method = :smtp
+
+  config.action_mailer.smtp_settings = {
+    address: "smtp.gmail.com",
+    port: 587,
+    domain: "sandboxb71ef22c844044b199082b2f505dc33c.mailgun.org",
+    authentication: "plain",
+    enable_starttls_auto: true,
+    user_name: ENV['erik.young@rmit.edu.vn'],
+    password: ENV['erikngoc']
+  }
   # Code is not reloaded between requests.
   config.cache_classes = true
 

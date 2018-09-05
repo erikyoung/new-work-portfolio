@@ -1,14 +1,14 @@
 class MessageMailer < ApplicationMailer
-
+  default from: 'erik.young@rmit.edu.vn'
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
   #
   #   en.message_mailer.contact_me.subject
   #
   def contact_me(message)
-    
+    @message = message
     @body = message.body
-
-    mail to: "erik.young@rmit.edu.vn", from: message.email
+    
+    mail to: "erik.young@rmit.edu.vn", subject: "Sign Up Confirmation", from: message.email
   end
 end
