@@ -1,27 +1,14 @@
 
-<div class="container">
-<div class="row">
-<div class="col-10 offset-1 mt-5 align-items-center">
-  
-    <h1 class="text-center">Let's Keep in Contact</h1>
-    <%= simple_form_for @message, url: create_message_url do |f| %>
-      <%= f.input :name, input_html: { class: 'my_class' }, label_html: { class: 'labels' }  %> 
-      
-      <small class="form-text text-muted">What your friends call you</small>
-      <%= f.input :address, label_html: { class: 'labels' } %> 
-      <small class="form-text text-muted">Somewhere you go a lot</small>
-      <%= f.input :email, label_html: { class: 'labels' }, placeholder: 'user@domain.com' %>
-      <%= f.input :message, label_html: { class: 'labels' },  placeholder: "I'm contacting you about..." %> 
-      <small class="form-text text-muted">Hopefully, about a project</small>
-      <br />
-   
-    <%= f.submit 'Contact Me', class: 'btn btn-primary btn-lg btn-block' %>
-  <% end %>
-  </div> 
-</div>
-</div><!--container--> 
-
-
+<<div class="booyah-box col-8 offset-2">
+<h1>Let's Keep in Contact</h1>
+<%= simple_form_for @message, url: create_message_url do |f| %>
+  <%= @message.errors.full_messages.join(', ') %>
+  <%= f.input :name, placeholder: 'John Doe' %>
+ <%= f.input :email, placeholder: 'email' %>
+ <%= f.input :body, as: :text, placeholder: 'Hey there, I wanted to contact you about..' %>
+ <%= f.submit 'Contact Me', class: 'btn btn-primary' %>
+<% end %>
+</div><!--top-banner--> 
 
 
 

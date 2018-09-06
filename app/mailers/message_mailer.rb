@@ -7,8 +7,8 @@ class MessageMailer < ApplicationMailer
   #
   def contact_me(message)
     @message = message
-    @body = message.body
     
-    mail to: "erik.young@rmit.edu.vn", subject: "Sign Up Confirmation", from: message.email
+    
+    mail to: "erik.young@rmit.edu.vn", subject: "Sign Up Confirmation"
   end
 end
