@@ -8,6 +8,7 @@ Rails.application.routes.draw do
  get 'about', to: 'works#about'
  get 'cases', to: 'designs#cases'
  get 'hw', to: 'designs#hw'
+ get 'teacher', to: 'designs#teacher'
  get 'zeit', to: 'designs#zeit'
  get 'mirror', to: 'designs#mirror'
  get 'portfolio', to: 'works#index'
