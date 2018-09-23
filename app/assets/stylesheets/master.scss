@@ -7,19 +7,69 @@ body {
 	
 
 
-z-index: 0;
+
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
    
 }
 
-#small {
+.teachertusslecasestudy {
+
+	width: 100vw;
+    min-height: 1400px;
+    background-image: url("correct-teacher.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    top: 0;
+    bottom: 0; 
+    z-index: -10;
+    
+}
+
+.teacher-intro {
+	color: black;
+	background: white;
+	border-radius: 10px; 
+	margin-top: 100px ;
+	padding: 25px;
+	display:inline-block;
+	vertical-align: middle; 
+	border-radius: 16px;
+	height: 300px; 
+	z-index:1;
 	
 }
 
 
 
+.teacher-overlay {
+	width: 100%;
+	height: 100%; 
+	background-color:blue;
+	opacity: 0.3; 
+	position: absolute; 
+	top: 0;
+	bottom: 0;
+	z-index: -5; 
+}
+
+#app-title {
+	font-family: "PiratesWriters", Helvetica, Arial, serif;
+    font-size: 64.0px;
+    color: black;
+    text-align: center;
+    line-height: 77.0px;
+    padding: 25px;
+
+}
+
+
+
+	
 
 
 #typed-cursor {
