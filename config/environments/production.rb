@@ -1,26 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-   config.action_mailer.default_url_options = { host: 'http://erikyoungwebdesigner.ml/' } 
+  config.action_mailer.default_url_options = { host: 'http://erikyoungwebdesigner.ml/' } 
    
-   config.action_mailer.delivery_method = :smtp
-
-  config.action_mailer.smtp_settings = {
-    address: "smtp.gmail.com",
-    port: 587,
-    domain: "sandboxb71ef22c844044b199082b2f505dc33c.mailgun.org",
-    authentication: "plain",
-    enable_starttls_auto: true,
-    user_name: ENV['erik.young@rmit.edu.vn'],
-    password: ENV['erikngoc']
-  }
   # Code is not reloaded between requests.
   config.cache_classes = true
-
-  config.action_mailer.delivery_method = :mailgun
-  config.action_mailer.mailgun_settings = {
-   api_key: 'ENV["mailgun_secret_api_key"]',
-   domain: 'mydomain.com',
-  }
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
