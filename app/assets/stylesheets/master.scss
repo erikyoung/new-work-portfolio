@@ -13,7 +13,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 .teachertusslecasestudy {
 
-	width: 100vw;
+	width: 100%;
     min-height: 1300px;
     background-image: url("correct-teacher.png");
     background-size: cover;
@@ -38,20 +38,40 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	border-radius: 16px;
 	height: 300px; 
 	z-index:1;
+	position: relative;
+    top: 350px;
 	
 }
 
 .target-user-rectangle {
 	background-color: #ec5468;
     height: 811px;
-    width: 100%;
-
+    
 
 }
 
 .margins-div {
-	margin-left: 200px;
-    margin-right: 200px; 
+	margin-left: 250px;
+    margin-right: 250px; 
+}
+
+#line {
+  background-color: black;
+   border: 1px solid black;
+   width: 205px;
+}
+
+#process {
+font-family: Helvetica;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2475px;
+  text-align: center;
+  color: #4a4a4a;
+
 }
 
 #goal {
