@@ -3,6 +3,6 @@ class MessageMailer < ApplicationMailer
 
   def contact_me(message)
     @message = message
-    mail to: "erik.young@rmit.edu.vn", subject: "Contact Form Message"
+    mail to: "youngerik26@gmail.com", subject: "Contact Form Message"
   end
 end
