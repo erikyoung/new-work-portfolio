@@ -9,7 +9,7 @@ class MessagesController < ApplicationController
     @message = Message.new(message_params)
 
     if @message.save
-      MessageMailer.contact_me(@message.message).deliver
+      MessageMailer.contact_me(@message).deliver
       flash[:notice] =  "Message received, thanks!"
     else
       flash[:alert] = "There was an error sending your message."
