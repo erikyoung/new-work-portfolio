@@ -34,6 +34,9 @@
           <li class="nav-item active">
             <a class="nav-link" <%= link_to 'Resume', resume_path %><span class="sr-only">(current)</span></a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" <%= link_to 'Blog', posts_path %><span class="sr-only">(current)</span></a>
+          </li>
           
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -44,13 +47,13 @@
     </nav>
 
     <% if notice.present? %>
-  <p class="alert alert-info"><%= notice %></p>
-<% end %>
-<% if alert.present? %>
-  <p class="alert alert-danger"><%= alert %></p>
-<% end %>
+      <p class="alert alert-info"><%= notice %></p>
+    <% end %>
+    <% if alert.present? %>
+      <p class="alert alert-danger"><%= alert %></p>
+    <% end %>
     <%= yield %>
-    </div>
+  </div>
 
    <div id="footer">
     	<div class="container">
