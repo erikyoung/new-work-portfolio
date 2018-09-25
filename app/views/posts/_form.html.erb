@@ -6,7 +6,9 @@
     <%= f.input :title %>
     <label class="form-control-label string required" for="post_title">Body<abbr title="required">*</abbr></label>
     <%= f.trix_editor :body %>
-    <div class="post-image text-center w-100 mt-4"><%= image_tag @post.image, class: "" %></div>
+    <% if @post.image.present? %>
+      <div class="post-image text-center w-100 mt-4"><%= image_tag @post.image, class: "" %></div>
+    <% end %>
     <%= f.file_field :image, class: "mt-4" %>
     <%= f.check_box :remove_image %> Remove
   </div>
