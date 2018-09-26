@@ -13,16 +13,19 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 .teachertusslecasestudy {
 
-	
+	width: 150vw; 
     min-height: 1300px;
     background-image: url("correct-teacher.png");
     background-size: cover;
     background-position: bottom;
+    position: fixed; 
     background-repeat: no-repeat;
     text-align: center;
     z-index: -10;
     
 }
+
+
 
 .closingstudy {
 	min-height: 1300px;
