@@ -13,23 +13,19 @@
 
 
 
-
-//= require sweetalert2
-//= require scrollReveal
-//= require pace/pace
 //= require jquery
 //= require jquery_ujs
+
+//= require scrollReveal
+//= require pace/pace
 //= require jquery.turbolinks 
 //= require turbolinks
-
-//= require rails-ujs
 //= require typed
 //= require popper
 //= require tether
 //= require bootstrap-sprockets
 //= require trix
 
-//= require sweet-alert-confirm
 //= require_tree .
 
 
@@ -39,41 +35,41 @@ $(function() {
 
   
 
-  $(function(){
-    $("#typed").typed({
-      strings: ["Erik Young"],
-      // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-      stringsElement: null,
-      // typing speed
-      typeSpeed: 110,
-      // time before typing starts
-      startDelay: 1200,
-      // backspacing speed
-      backSpeed: 30,
-      // time before backspacing
-      backDelay: 500,
-      // loop
-      loop: true,
-      // false = infinite
-      loopCount: false,
-      // show cursor
-      showCursor: true,
-      // character for cursor
-      cursorChar: "",
-      // attribute to type (null == text)
-      attr: null,
-      // either html or text
-      contentType: 'html',
-      // call when done callback function
-      callback: function() {},
-      // starting callback function before each string
-      preStringTyped: function() {},
-      //callback for every typed string
-      onStringTyped: function() {},
-      // callback for reset
-      resetCallback: function() {}
-    });
+$(function(){
+  $("#typed").typed({
+    strings: ["Erik Young"],
+    // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+    stringsElement: null,
+    // typing speed
+    typeSpeed: 110,
+    // time before typing starts
+    startDelay: 1200,
+    // backspacing speed
+    backSpeed: 30,
+    // time before backspacing
+    backDelay: 500,
+    // loop
+    loop: true,
+    // false = infinite
+    loopCount: false,
+    // show cursor
+    showCursor: true,
+    // character for cursor
+    cursorChar: "",
+    // attribute to type (null == text)
+    attr: null,
+    // either html or text
+    contentType: 'html',
+    // call when done callback function
+    callback: function() {},
+    // starting callback function before each string
+    preStringTyped: function() {},
+    //callback for every typed string
+    onStringTyped: function() {},
+    // callback for reset
+    resetCallback: function() {}
   });
+});
 
   
-  $('.selectpicker').selectpicker('refresh');
+// $('.selectpicker').selectpicker('refresh');

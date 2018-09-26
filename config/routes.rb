@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
-  resources :posts
   root 'works#static' 
   
   devise_for :users
 	
   resources :works
   resources :designs
+
+  resources :posts do
+    resources :comments
+  end
 
   get 'static', to: 'works#static'
   get 'about', to: 'works#about'
