@@ -304,6 +304,17 @@ font-family: Helvetica;
 	z-index: -5; 
 }
 
+.teacher-overlay-mirror-bottom {
+	width: 100%;
+	height: 1000px; 
+	background-color: #8D98AD;
+	opacity: 0.70; 
+	position: absolute; 
+	top: 0;
+	bottom: 0;
+	z-index: -5; 
+}
+
 .teacheroverlay {
 	width: 100%;
 	height: 1300px; 
