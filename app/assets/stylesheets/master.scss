@@ -25,6 +25,17 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     
 }
 
+.mirror-top {
+	min-height: 1300px;
+    background-image: url("mirror-hero.jpg");
+    background-size: cover;
+    background-position: bottom;
+  
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: -10;
+}
+
 
 
 .closingstudy {
@@ -60,6 +71,23 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     height: 811px;
     
 
+}
+
+#app-title-mirror {
+	font-family:  Helvetica, Arial, serif;
+	font-weight: bold; 
+    font-size: 64.0px;
+    color: black;
+    text-align: center;
+    line-height: 77.0px;
+    padding: 25px;
+    padding-bottom: 20px; 
+}
+
+.target-user-mirror {
+	background-color: #F1F5F8; 
+	background-size: cover; 
+    height: 811px;
 }
 
 .margins-div {
