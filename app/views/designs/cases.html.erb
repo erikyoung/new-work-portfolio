@@ -1,24 +1,23 @@
+<div class="container">
+	<div class="row">
+			<div class="col mirror-top">
 
-
-			<div class="mirror-top">
-	
-						<div class="col-7 mx-auto px-2 teacher-intro-mirror"> 
-							<h1 id="app-title-mirror">Designing a Mobile Ecommerce Experience</h1>
-						</div>
-			<div class="teacheroverlay-mirror"></div>
-</div><!--mirror-top-->  
-	
-
-
+				<div class="col-7 mx-auto px-2 teacher-intro-mirror"> 
+						<h1 id="app-title-mirror">Designing a Mobile Ecommerce Experience</h1>
+				</div>
+			</div>
+		</div>
+</div>
+			
 
 				
 
 
 
-		
-			<div class="col-12 text-center mx-auto px-2 target-user-mirror">
+		<div class="row">
+			<div class="col text-center mx-auto px-2 target-user-mirror">
 				<div class="margins-div">
-					 <h1 id="target-user">Target User<br /><br /><br /><br /><br /><br /></h1>
+					 <h1 id="target-user">Target User<br /><br /></h1>
 					 <p class="primary-users-bit">The primary users are people who are looking for clothes in a convenient, online experience that provides them with maximum information about the product. The users are primarily working adults who may or may not have children. Most users will be conscious of price, so offerring sales is attractive to them</p>
 					 <h1 id="goal">Goal</h1>
 					 <p class="primary-goals">The primary goals was to develop a logical shopping experience that provides maximum information for the user with minimal effort. It also places special emphasis on creating a checkout process that breaks down each step and makes it clear to the user about what is happening before they make a final decision.  </p>
@@ -26,4 +25,138 @@
 					 <p class="my-role">UX/UI Designer & Researcher</p>
 				</div><!--margins-div--> 
 			</div><!--target-users-rectangle--> 
+		</div> <!--row-->
+
+		<div class="row">
+			<div class="col-12 text-center mx-auto px-2 skills-image">
+				<%= image_tag('skills.png', class: 'img-fluid') %> 
+				<div class="margins-div">
+					 <h1 id="target-user">Summary<br /><br /></h1>
+					 <p class="primary-users-bit">Mirror is a very big clothing store chain for both kids and adults. They also have different styles--casual, business, sporty, party, and formal. You have been contacted by Mirror to help them take their business online since currently they only have a very outdated informational website that only lists locations, promotions, and a bit of background about the company. They don’t want to keep anything that they currently have, so it’s all up to you. For now, they want to start with a new logo and an e-commerce responsive website where they can sell their products online.</p>
+					
+					 <br /> 
+					 <p class="primary-goals">Through the process of developing this site, it was discovered that users want an easy to use resource for shopping. Many of them found shopping online to be difficult and shied away from it, mostly because it couldn’t match the real-time experience in terms of understanding the feedback. That became the main mission of the site: maximum info for the user.</p>
+					 
+				</div><!--margins-div--> 
+			</div>
+			
+
+		</div><!--row--> 
+
+		<div class="row">
+			<div class="col-12 text-center mx-auto px-2 line-process">
+				<hr id="line">
+					<h2 id="process">Process</h2>
+				<hr id="line"> 
+
+				<br />
+				<br /> 
+				<h1 id="target-user">Research</h1>
+				<%= image_tag('research-image.png', class: 'mx-auto d-block') %> 
+					<div class="margins-div">
+					 <p class=" primary-users-bit">Research began by looking at the current landscape of online booking for clothes with a number of different brands, both clothing as well as other industries. The goal was to see how people are overcoming this virtual/physical environment barrier that tends to plague the online shopping  experience. Considerable time was spent looking at case studies as well as  information about consumer habits before beginning any kind of primary research. <br /> 
+ 						<br /> 
+				    When we began the primary research phase, we inverviewed 6 people, ranging in age from 21 to 51 to get a diverse range of perspectives from people who buy products or regularly do any shopping. During the interviews, the emphases of our interviews was on their recollection of a recent shopping experience. Through this retelling of their experiences, we looked deeply at the motivations behind certain purchases and understanding the drivers that went into certain purchases as well as what pain points came up during their shopping experience. We then used this information to inform the main content of our page and how we intended to proceed with building out the site. <br /> 
+				    <br /> 
+					As a general summary, we discovered that purchases are not done randomly; rather, they are part of a variety of circumstances, recent decisions and experiences, and even marketing that has led to their purchase. On top of that, we also discoverd what they want out of a shopping experience as well: maximum info and maximum convenience. </p>
+					 <br /> 
+					 
+				</div><!--margins-div--> 
+			</div><!--line-process--> 
+		</div><!--row--> 
+
+
+		<div class="row">
+			<div class="col-12 text-center mx-auto px-2 line-process">
+				<h1 id="target-user">Strategy</h1>
+				<%= image_tag('strategy.png', class: 'mx-auto d-block') %> 
+				<div class="margins-div">
+					 <p class=" primary-users-bit">With all this research and useful information from users, there were several personas that could have been chosen. The best thing to do then was to look at the clusters of charateristics from each of them to develop a unifying persona. Here is what came out: </p>
+					 <br /> 
+				<%= image_tag('ngoc-persona.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
+				<%= image_tag('ngoc-empathy.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
+					<p class=" primary-users-bit">From there, we began the work of looking at how the layout of the user experience would begin with the initial steps into the Information Architecture. Given that much of the site is focused on helping the user get to the product they want as fast as possible, the site is built on providing lots of filters and navigation that will let you pick what you’re after and checkout as painless as possible.  </p> <br /> 
+
+					<h2 id="process">Site Map</h2>
+					<%= image_tag('mirror-sitemap.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
+					<h2 id="process">Site Map</h2>
+					<%= image_tag('mirror-user-flow.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
+					<p class=" primary-users-bit">What we can derive from the site map and the user flow is this: users are going to be able to find what they need; be able to add it to their cart, keep shopping if they want; otherwise, they’ll begin to checkout.  </p> <br /> 
+				</div><!--margins-div--> 
+			</div><!--col mx-auto--> 
+		</div><!--row--> 
+
+		<div class="row">
+			<div class="col-12 text-center mx-auto px-2 line-process">
+					<h1 id="target-user">Interaction & UI Design</h1>
+					<%= image_tag('interaction.png', class: 'img-fluid') %> 
+				<div class="margins-div">
+					 <p class=" primary-users-bit">.</p>
+					 <br /> 
+					 <p class=" primary-users-bit">Getting to the wireframes was a fairly straightforward process because we knew what the users wanted: lots of sales, lots of suggestions, lots of choices. We knew these were priorities, so our landing page needed to express that. Aside from that, the bulk of our page from then on primarily reflected the user flow.  </p>
+					 <br /> 
+					  <p class=" primary-users-bit">From a UI perspective, what we realized for this site was that much of the content was going to be occupying the user’s eye, so lots of colors and emphasis on others aesthetics was not going to be a primary concern for us; rather, let the products do the talking for us.   </p>
+					 <br /> 
+					
+					<br /> 
+				<h2 id="process">High Fidelity Wireframe</h2> <br /> 
+				</div><!--margins-div--> 
+			</div><!--col--> 
+		</div><!--row--> 
+
+		<div class="row">
+			<div class="col text-center mx-auto px-2 line-process">
+				<%= image_tag('mirror-homepage.png', class: 'mx-auto d-block', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+			</div>
+			<div class="col text-center mx-auto px-2 line-process">
+				<%= image_tag('mirror-product-category.png', class: 'mx-auto d-block', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+			</div>
+		</div><!--row--> 
+
+		<div class="row">
+			<div class="col text-center mx-auto px-2 line-process mt-5">
+				<%= image_tag('mirror-product.png', class: 'mx-auto d-block', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+			</div>
+			<div class="col text-center mx-auto px-2 line-process mt-5">
+				<%= image_tag('mirror-start-checkout.png', class: 'mx-auto d-block',:style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+			</div>
+		</div><!--row--> 
+
 		
+
+		<div class="row">
+			<div class="col-12 text-center mx-auto px-2 line-process">
+				<h1 id="target-user">Usability Testing</h1>
+				<div class="margins-div">
+					<p class=" primary-users-bit">
+					Usability testing confirmed our belief at this point: we had built something that made sense to the user and was easy to use. Earlly iterations of the testing were a little bit rough, but much of that was due to the fact that users were not that familiar with low-fidelity mockups of the site, so there was some basic issues with navigation. Prototyping is also an area people are not that used to as well, so getting a feel for the limitations of a site such as that was also a consideration.  </p><br />
+				</div>
+			</div><!--col--> 
+		</div><!--row--> 
+
+		<div class="row">
+			<div class="col-12 text-center mx-auto px-2 line-process">
+				<h1 id="target-user">Reflection</h1>
+				<div class="margins-div">
+					<p class=" primary-users-bit">
+					This site was more straightforward than others given the established nature of ecommerce shopping sites. There is a lot of information that exists about this kind of site and has been done countless times by people. The real trick was finding a slick way to communicate maximum information to the user without the experience being too complicated for the user. In the end, however, I I think we came out with something solid that conveys a good shopping experience that meets most needs. 
+					</p> <br />
+				</div>
+			</div><!--col--> 
+		</div><!--row--> 
+
+
+
+<div class="closingstudy-mirror">
+	<div class="teacher-overlay-mirror-bottom"></div>
+</div><!--closing-study--> 
+	
+
+	
+
+
+		
+				 
+		
+		
+
