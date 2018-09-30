@@ -41,7 +41,8 @@
 				<br />
 				<br /> 
 				<h1 id="target-user">Research</h1>
-				<%= image_tag('research-image.png', class: 'mx-auto d-block') %> 
+				<%= image_tag('spotify-research-image.png', class: 'mx-auto d-block') %> 
+					<br /> 
 					<div class="margins-div">
 					 <p class=" primary-users-bit">Research began by looking at the current landscape of online streaming music. We started with an exhaustive competitive analysis to see who the major players in the market were and what points of  differentiation may have existed. The goals here were straightforward: to better understand how sharing was being done by any competitors, and to what extent was it successful; we also wanted to see how we could further distinguish our own existing product and develop a truly organic social music sharing sphere. Here is a quick look at where we started off:<br /> 
  						<br /> 
@@ -55,86 +56,94 @@
  					Primary research was done with 17 different people. At first, individual interviews were conducted to get direct feedback on students aboout they music sharing habits generally, when they shared music, and what kinds of moods and/or other psychological triggers were part of this. From there, we worked through a problem statement and ideation strategy to uncover how we could best take their feedback and develop those ideas. This part was developed into 3 strategies: 
 				     </p>
 
-				    <ol class="primary-users-bit-spotify">
-				    	<li>Problem Statements (“How Might We..?”)
-</li>
-				    	<li>Ideation (Crazy 8’s)
-</li>
+				    <ol class="col-4 text-center mx-auto px-2  primary-users-bit-spotify">
+				    	<li>Problem Statements (“How Might We..?”)</li>
+				    	<li>Ideation (Crazy 8’s)</li>
 				    	<li>Storyboarding</li>
 
-				    </ol>
+				    </ol><br /> 
+
+				   <p class="primary-users-bit">With those ideas fresh out there, we began to iterate over possible solutions to see what could be possible. For the research, however, here is what we learned: 
+				   </p><br /> 
+
+				   <%=image_tag('spotify-research.png', class:'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+				   <br /><br />
+
+				   <p class="primary-users-bit">With this information, we could finally begin to build out what our users were about with some degree of confidence through the use of a Persona and an Empathy Map. These two documents help us to focus our energies into specific regions. </p><br /> <br />
+
+				   <%= image_tag('spotify-persona.png', class:'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+				   <br /><br />
+
+				   <%= image_tag('spotify-empathy.png', class:'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+				   <br />
+				   <br />
+				   <p class="primary-users-bit">The main aspect that is carried throughtout all the interviews and the maps above is this: music is something that I share to express myself, and my mood is a core part of what I express. I want to be able to show my mood as part of a continuum.   
+ </p><br /> <br />
+
+
 				</div><!--margins-div--> 
 			</div><!--line-process--> 
 
-			<div class="col-12 text-center mx-auto px-2 line-process">
+			<div class="col-12 text-center mx-auto px-2">
 				<h1 id="target-user">Strategy</h1>
 				<%= image_tag('strategy.png', class: 'mx-auto d-block') %> 
 				<div class="margins-div">
-					 <p class=" primary-users-bit">With all this research and useful information from users, there were several personas that could have been chosen. The best thing to do then was to look at the clusters of charateristics from each of them to develop a unifying persona. Here is what came out: </p>
+					 <p class=" primary-users-bit">With all this research and useful information from users, we now had to begin the work of conceptualizing the Information Architecture and where this new feature would be located on the application and how would people interract with it. This created an interesting problem: 
+					 <br />
+					It makes no sense to develop a user flow on something that people are already familiar with and already has an existing UI, so how do we develop the correct placement and interaction with the feature without incorporating usability testing as part of the information architecture process?  </p>
 					 <br /> 
-				<%= image_tag('ngoc-persona.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
-				<%= image_tag('ngoc-empathy.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
-					<p class=" primary-users-bit">From there, we began the work of looking at how the layout of the user experience would begin with the initial steps into the Information Architecture. Given that much of the site is focused on helping the user get to the product they want as fast as possible, the site is built on providing lots of filters and navigation that will let you pick what you’re after and checkout as painless as possible.  </p> <br /> 
+				<%= image_tag('spotify-original-uf.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
+				<%= image_tag('spotify-userflow.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
+					<p class="primary-users-bit">As you can see in the above layouts of the user flow, a simple chart was not going to get at the success of the user to get to our task, nor was it going to address their ability to interact with the new feature. So from this chart, we developed a brief user flow that lead to the page and the ‘mood mix’ that we constructred. But this still didn’t get at what we wanted, so we had to iterate further. From here, we took the feedback and began to develop the user flow more fully, specifically with regard to the navigation on the page we wanted:  </p> <br /> 
 
-					<h2 id="process">Site Map</h2>
-					<%= image_tag('mirror-sitemap.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
-					<h2 id="process">Site Map</h2>
-					<%= image_tag('mirror-user-flow.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
-					<p class=" primary-users-bit">What we can derive from the site map and the user flow is this: users are going to be able to find what they need; be able to add it to their cart, keep shopping if they want; otherwise, they’ll begin to checkout.  </p> <br /> 
+					<%= image_tag('spotify-early-ui.png', class:'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+					<br />
+					</br /> 
+
+					<p class="primary-users-bit">From here, the user would be able to click on the mood bar and have music offerrings shuffled based on the click of a mood. But with all that planning, we still hadn’t had a human interract this new feature. It was time to do some Usability Testing. </p><br /><br />
+
 				</div><!--margins-div--> 
 			</div><!--col mx-auto--> 
 
 			<div class="col-12 text-center mx-auto px-2 line-process">
-					<h1 id="target-user">Interaction & UI Design</h1>
-					<%= image_tag('interaction.png', class: 'img-fluid') %> 
+					<h1 id="target-user">Usability Testing</h1>
+			
 				<div class="margins-div">
-					 <p class=" primary-users-bit">.</p>
+					 
 					 <br /> 
-					 <p class=" primary-users-bit">Getting to the wireframes was a fairly straightforward process because we knew what the users wanted: lots of sales, lots of suggestions, lots of choices. We knew these were priorities, so our landing page needed to express that. Aside from that, the bulk of our page from then on primarily reflected the user flow.  </p>
+					 <p class=" primary-users-bit">Usability testing revealed a number of important factors that were not taken into account. On the whole, many of them were related to the interaction with the ‘pie chart’ and the buttons. Some of the feedback was: </p>
 					 <br /> 
-					  <p class=" primary-users-bit">From a UI perspective, what we realized for this site was that much of the content was going to be occupying the user’s eye, so lots of colors and emphasis on others aesthetics was not going to be a primary concern for us; rather, let the products do the talking for us.   </p>
+					   <ul class="col-9 text-center mx-auto px-2  primary-users-bit-spotify">
+				    	<li>It is not clear what the pie is meant to represent</li>
+				    	<li>There was no interraction with the buttons so it was hard to know whether the mood had shifted or that even my answer was recorded. </li>
+				    	<li>There were so many moods and an option to create new ones, so what exactly would happen if I added a new mood? </li>
+
+				    </ul><br /> 
+
 					 <br /> 
+					 <p class="primary-users-bit">
+					 	So with this feedback, we went back and reiterated on the interface and developed a clearer, more concise plan that showed the user how and what would occur when they used the application when searching for mood music. Here is the final result: 
+
+					 </p><br /><br />
+
+					 <%= image_tag('spotify-ui-final.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+					 <br />
+					 <br />
+					 <p class="primary-users-bit">
+					 	Subsequent tests revealed a more better user experience and a complete understanding of the role of the ‘mood mix’ in the sorting and locating of music. 
+
+					 </p><br />
 					
 					<br /> 
-				<h2 id="process">High Fidelity Wireframe</h2> <br /> 
+				<h2 id="process">Reflection</h2> <br /> 
+				<p class="primary-users-bit">
+					This project put the role of the UX Designer front and center. With many projects, there is a specific endpoint that can generally be foreseen for a web-based application. For this, however, not only did we not know what the final outcomes would be, but we also had to learn to integrate it within the bounds of an existing application.
+				</p><br /><br />
 				</div><!--margins-div--> 
 			</div><!--col--> 
 
 			
-				<div class="d-flex flex-row">
-					<%= image_tag('mirror-homepage.png', class: 'mx-auto d-block', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
 				
-					<%= image_tag('mirror-product-category.png', class: 'mx-auto d-block', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
-				</div>
-
-				<div class="d-flex flex-row">
-				<%= image_tag('mirror-product.png', class: 'mx-auto d-block', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
-			
-
-				<%= image_tag('mirror-start-checkout.png', class: 'mx-auto d-block',:style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
-			</div>
-
-			<div class="col-12 text-center mx-auto px-2 line-process">
-				<h1 id="target-user">Usability Testing</h1>
-				<div class="margins-div">
-					<p class=" primary-users-bit">
-					Usability testing confirmed our belief at this point: we had built something that made sense to the user and was easy to use. Earlly iterations of the testing were a little bit rough, but much of that was due to the fact that users were not that familiar with low-fidelity mockups of the site, so there was some basic issues with navigation. Prototyping is also an area people are not that used to as well, so getting a feel for the limitations of a site such as that was also a consideration.  </p><br />
-				</div>
-			</div><!--col--> 
-
-			<div class="col-12 text-center mx-auto px-2 line-process">
-				<h1 id="target-user">Reflection</h1>
-				<div class="margins-div">
-					<p class=" primary-users-bit">
-					This site was more straightforward than others given the established nature of ecommerce shopping sites. There is a lot of information that exists about this kind of site and has been done countless times by people. The real trick was finding a slick way to communicate maximum information to the user without the experience being too complicated for the user. In the end, however, I I think we came out with something solid that conveys a good shopping experience that meets most needs. 
-					</p> <br />
-				</div>
-			</div><!--col-->
-
-<div class="closingstudy-mirror">
-		<div class="teacher-overlay-mirror-bottom"></div>
-</div><!--closing-study--> 
-	
 			
 			
 
