@@ -53,6 +53,21 @@ body {
     z-index: -10;
 }
 
+.spotify-top {
+	min-height: 1300px;
+	width: 100vw; 
+    background-image: url("spotify-top.png");
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    top:0px;
+    left:0px; 
+  	background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: -10;
+}
+
 .closingstudy-mirror {
 	
 	min-height: 1000px; 
@@ -159,6 +174,19 @@ body {
 	z-index:1; 
 }
 
+.teacher-intro-spotify {
+	color: #7CD4C1;
+	opacity: 0.7;
+	background: #000000;
+	border-radius: 10px; 
+	margin-top: 100px ;
+	padding: 25px;
+	height: 300px; 
+	display:inline-block; 
+	vertical-align: middle; 
+	z-index:1; 
+}
+
 .target-user-rectangle {
 	background-color: #ec5468;
 	background-size: cover; 
@@ -200,6 +228,14 @@ body {
 	width: 100%;
     height: 911px;
 }
+
+.target-user-spotify {
+	background-color: #F1F5F8; 
+	width: 100%;
+    height: 750px;
+}
+
+
 
 .margins-div {
 	margin-left: 250px;
@@ -316,6 +352,16 @@ font-family: Helvetica;
 
 }
 
+.primary-users-bit-spotify {
+	font-family: Helvetica;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: #000000;
+}
+
 
 
 .teacheroverlay-mirror {
@@ -342,6 +388,8 @@ font-family: Helvetica;
 	bottom: 0;
 	z-index: -5; 
 }
+
+
 
 .teacheroverlay-bottom-teacher {
 	width: 100%;
