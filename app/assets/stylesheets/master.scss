@@ -65,7 +65,7 @@ body {
 .hw-top {
 	min-height: 1224px;
 	width:100vw;
-    background-image: url("hw-tracker-case-study-rectangle.png");
+    background-image: url("new-hw-top.png");
     background-size: cover;
     background-position: bottom;
   	position: relative; 
@@ -77,43 +77,6 @@ body {
 }
 
 
-
-.hand-with-oval {
-	width:100vw;
-	min-height:2329px; 
-  	mix-blend-mode: color;
-	background-image: url("need-crop.png"); 
-	background-size:cover;
-	background-position:bottom;
-	background-repeat: no-repeat;
-	position:relative;
-	bottom: 250px; 
-	z-index: -15; 
-}
-
-
-
-.oval {
-
-  width: 862px;
-  height: 1318px;
-  background-image: url("hw-bubble-oval.png"); 
-  object-fit: contain;
-  background-repeat: no-repeat;
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: “FlipH”;
-  position:relative; 
-  z-index: -13; 
-
-}
-
-#bubble {
-	height: 1618px; 
-}
 
 .hw-content {
 	
@@ -286,6 +249,19 @@ width: 530px;
 	background-color: #F1F5F8; 
 	width: 100%;
     height: 750px;
+}
+
+.target-user-hw {
+	background-color: #F1F5F8; 
+	width: 100%;
+    height: 911px;
+    min-height: 1500px; 
+    background-image: url("pleasework.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+
 }
 
 
