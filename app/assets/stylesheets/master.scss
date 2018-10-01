@@ -76,8 +76,14 @@ body {
     z-index: -10;
 }
 
+.hw-content {
+	
+	width:50%; 
+}
+
 .hw-top-box {
 	justify-content: space-between;
+	display:flex; 
 }
 
 .closingstudy-mirror {
@@ -105,28 +111,41 @@ body {
 }
 
 #hw-title {
+	
+  
+  font-family: Garamond;
 	font-size: 72px; 
 	font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 2.117647px;
-    text-align: center;
+    text-align: left;
     color: #ffffff;
-    justify-content: flex-start; 
+    
 }
 
 #hw-info {
+width: 530px;
+  height: 253px;
+  text-align: left;
+  font-family: Garamond;
+  font-size: 36px;
 	font-size: 36px; 
 	font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 2.117647px;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
-  justify-content: flex-start; 
-  margin-left: 70px; 
+  
+  
+}
+
+.hw-content {
+	padding-top: 65px; 
+
 }
 
 
