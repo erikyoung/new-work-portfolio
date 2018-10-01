@@ -63,9 +63,9 @@ body {
 }
 
 .hw-top {
-	min-height: 1000px;
+	min-height: 1224px;
 	width:100vw;
-    background-image: url("hw-tracker-case-study-rectangle");
+    background-image: url("hw-tracker-case-study-rectangle.png");
     background-size: cover;
     background-position: bottom;
   	position: relative; 
@@ -74,6 +74,20 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     z-index: -10;
+}
+
+.part-with-underlays {
+	width:100vw;
+	min-height:2329px; 
+  	mix-blend-mode: color;
+
+	background-image: url("hw-tracker-underlayer.png"); 
+	background-size:cover;
+	background-position:bottom;
+	background-repeat: no-repeat;
+	position:relative;
+	bottom: 250px; 
+	z-index: -15; 
 }
 
 .hw-content {
@@ -101,14 +115,6 @@ body {
 }
 
 
-
-
-.hw-tracker-stuff {
-	color: white; 
-	font-family: "Garamond",Helvetica,Arial,sans-serif;
-	font-weight: bold; 
-
-}
 
 #hw-title {
 	
