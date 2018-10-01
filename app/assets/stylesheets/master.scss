@@ -15,12 +15,6 @@ body {
 }
 
 
-
-
-
- 
- 
-
 .teachertusslecasestudy {
 
 	
@@ -68,6 +62,24 @@ body {
     z-index: -10;
 }
 
+.hw-top {
+	min-height: 1000px;
+	width:100vw;
+    background-image: url("hw-tracker-case-study-rectangle");
+    background-size: cover;
+    background-position: bottom;
+  	position: relative; 
+  	top:0px;
+    left:0px; 
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: -10;
+}
+
+.hw-top-box {
+	justify-content: space-between;
+}
+
 .closingstudy-mirror {
 	
 	min-height: 1000px; 
@@ -83,16 +95,7 @@ body {
 }
 
 
-.hw-top {
-	min-height: 1000px;
-    background-image: url("hw-tracker-case-study-rectangle");
-    background-size: cover;
-    background-position: bottom;
-  	position: relative; 
-    background-repeat: no-repeat;
-    text-align: center;
-    z-index: -10;
-}
+
 
 .hw-tracker-stuff {
 	color: white; 
