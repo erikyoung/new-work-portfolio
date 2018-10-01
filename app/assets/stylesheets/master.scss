@@ -175,7 +175,7 @@ body {
 }
 
 .teacher-intro-spotify {
-	color: #7CD4C1;
+	
 	opacity: 0.7;
 	background: #000000;
 	border-radius: 10px; 
@@ -321,9 +321,7 @@ font-family: Helvetica;
   
 }
 
-.text-control {
-	margin-top: 15px;
-}
+
 
 .my-role {
 font-family: Helvetica;
@@ -426,6 +424,24 @@ font-family: Helvetica;
 
 .line-process {
 	background-color: #F1F5F8; 
+}
+
+#app-title-spotify {
+	color: white; 
+	padding-top: 50px; 
+	 text-shadow: 1px 1px #000000;
+}
+
+#app-title-spotify-overlap {
+	color: #7CD4C1;
+	position:absolute; 
+	bottom: 120px;
+    right: 0.5px; 
+}
+
+.text-control {
+	margin-top: 50px;
+	
 }
 
 
