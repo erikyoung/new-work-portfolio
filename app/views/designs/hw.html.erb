@@ -29,26 +29,35 @@
 					 <p class="primary-users-bit">Most teachers feel that their workloads have reached a point where, in order to do their jobs well, shortcuts have to be made. And because much of this new work often comes in the form of paperwork, focus on the needs of students is often the first thing that is sacrificed. </p>
 					
 					 <br /> 
-					 <p class="primary-goals">Through the process of developing this site, it was discovered that users want an easy to use resource for shopping. Many of them found shopping online to be difficult and shied away from it, mostly because it couldn’t match the real-time experience in terms of understanding the feedback. That became the main mission of the site: maximum info for the user.</p>
+					 <p class="primary-goals">Through the process of developing this app, it was discovered that this app would solve two problems: improve the teacher's use of time as well as providing students with faster turnaround times on their submissions. In this case, students would at least be able to have some initial feedback on their assignments. 
+
+					 <br />
+					  </p>
 					 
 				</div><!--margins-div--> 
 			</div>
 
 			<div class="col-12 text-center mx-auto px-2">
+			<br /> 
 				<hr id="line">
 					<h2 id="process">Process</h2>
 				<hr id="line"> 
 
-				<br />
 				<br /> 
 				<h1 id="target-user">Research</h1>
 				<%= image_tag('research-image.png', class: 'mx-auto d-block') %> 
 					<div class="margins-div">
-					 <p class=" primary-users-bit">Research began by looking at the current landscape of online booking for clothes with a number of different brands, both clothing as well as other industries. The goal was to see how people are overcoming this virtual/physical environment barrier that tends to plague the online shopping  experience. Considerable time was spent looking at case studies as well as  information about consumer habits before beginning any kind of primary research. <br /> 
+					 <p class="primary-users-bit">Research began by looking at some of the existing technology that existed on the market for teachers. From there, it didn't take long to see that there are a number of tools that are available on the market, but nothing that would provide specific solutions around marking, the major contributor to administrative tasks and workload stress. <br /> 
  						<br /> 
-				    When we began the primary research phase, we inverviewed 6 people, ranging in age from 21 to 51 to get a diverse range of perspectives from people who buy products or regularly do any shopping. During the interviews, the emphases of our interviews was on their recollection of a recent shopping experience. Through this retelling of their experiences, we looked deeply at the motivations behind certain purchases and understanding the drivers that went into certain purchases as well as what pain points came up during their shopping experience. We then used this information to inform the main content of our page and how we intended to proceed with building out the site. <br /> 
-				    <br /> 
-					As a general summary, we discovered that purchases are not done randomly; rather, they are part of a variety of circumstances, recent decisions and experiences, and even marketing that has led to their purchase. On top of that, we also discoverd what they want out of a shopping experience as well: maximum info and maximum convenience. </p>
+
+ 					From there, I held interviews with six different teachers across the School of Communication & Design at a university in Vietnam. In those interviews, teachers had reported that they tend to avoid a lot of tools because of the perception that the use of phones tends to be a detriment to classroom experience, but also the fact that most tools actually create more work for them, not less. 
+
+ 					So with that, four out of six teachers replied that they would only use a tool like this if it was simple and fast to use, and that it would in fact make a part of their job easier. 
+
+ 					During this phase of the research, I also sat with two of the teachers and actually observed the way that they were currently handling the marking task, which almost immediately revealed a very mechanical, very paper-shifting type of approach. 
+
+ 					So after showing them the concept I had many of them were interested. 
+					 </p>
 					 <br /> 
 					 
 				</div><!--margins-div--> 
@@ -58,17 +67,17 @@
 				<h1 id="target-user">Strategy</h1>
 				<%= image_tag('strategy.png', class: 'mx-auto d-block') %> 
 				<div class="margins-div">
-					 <p class=" primary-users-bit">With all this research and useful information from users, there were several personas that could have been chosen. The best thing to do then was to look at the clusters of charateristics from each of them to develop a unifying persona. Here is what came out: </p>
+					 <p class=" primary-users-bit">With all this research and useful information from teachers, there were several personas that could have been chosen. The best thing to do then was to look at the clusters of charateristics from each of them to develop a unifying persona. Here is what came out: </p>
 					 <br /> 
-				<%= image_tag('ngoc-persona.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
-				<%= image_tag('ngoc-empathy.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
-					<p class=" primary-users-bit">From there, we began the work of looking at how the layout of the user experience would begin with the initial steps into the Information Architecture. Given that much of the site is focused on helping the user get to the product they want as fast as possible, the site is built on providing lots of filters and navigation that will let you pick what you’re after and checkout as painless as possible.  </p> <br /> 
+				<%= image_tag('hw-persona.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+					<br /> <br /> 
+				
+					<p class=" primary-users-bit">From there, we began the work of looking at how the layout of the user experience would begin with the initial steps into the Information Architecture. Given that the primary mandate from teachers was that it had to be easy to use and have obvious value add to their jobs,  much of site was built with global navigation that could allow the user to revert or navigate around the app with little confusion or thought.  </p> <br /> 
 
-					<h2 id="process">Site Map</h2>
-					<%= image_tag('mirror-sitemap.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
-					<h2 id="process">Site Map</h2>
-					<%= image_tag('mirror-user-flow.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
-					<p class=" primary-users-bit">What we can derive from the site map and the user flow is this: users are going to be able to find what they need; be able to add it to their cart, keep shopping if they want; otherwise, they’ll begin to checkout.  </p> <br /> 
+					<h2 id="process">User Flow</h2>
+					
+					<%= image_tag('hw-userflow.png', class: 'img-fluid', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> <br /> <br /> 
+					<p class="primary-users-bit">What we can derive from this flow is simple: users are going to be able to find the work that needs marking without navigating the page, but if they want to, they are completely free to pass through all the courses and current assignments if they wish; this provides them with maximum flexibility.</p> <br /> 
 				</div><!--margins-div--> 
 			</div><!--col mx-auto--> 
 
@@ -76,32 +85,47 @@
 					<h1 id="target-user">Interaction & UI Design</h1>
 					<%= image_tag('interaction.png', class: 'img-fluid') %> 
 				<div class="margins-div">
-					 <p class=" primary-users-bit">.</p>
+					 <p class=" primary-users-bit"></p>
 					 <br /> 
-					 <p class=" primary-users-bit">Getting to the wireframes was a fairly straightforward process because we knew what the users wanted: lots of sales, lots of suggestions, lots of choices. We knew these were priorities, so our landing page needed to express that. Aside from that, the bulk of our page from then on primarily reflected the user flow.  </p>
+					 <p class="primary-users-bit">Getting the initial wireframes up took longer than we thought, as we had to consider not only the user flow, but what would be the most convenient path for our main stakeholders who were still on the fence about adopting this product.In the end,however, this is what we came up with.</p>
 					 <br /> 
-					  <p class=" primary-users-bit">From a UI perspective, what we realized for this site was that much of the content was going to be occupying the user’s eye, so lots of colors and emphasis on others aesthetics was not going to be a primary concern for us; rather, let the products do the talking for us.   </p>
+					 
+
 					 <br /> 
 					
 					<br /> 
-				<h2 id="process">High Fidelity Wireframe</h2> <br /> 
+				
 				</div><!--margins-div--> 
 			</div><!--col--> 
 
-			
-				<div class="d-flex flex-row">
-					<%= image_tag('mirror-homepage.png', class: 'mx-auto d-block', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+			<div class="col-12 text-center mx-auto px-2 initial-wireframe">
+			<h2 class="pt-5 process-hw">Initial Wireframes</h2> <br /> 
+				<div class="d-flex flex-row mb-4 image-frames">
+
+					<%= image_tag('hw-tracker-welcome.png', class: 'mx-auto d-block') %> 
 				
-					<%= image_tag('mirror-product-category.png', class: 'mx-auto d-block', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+					<%= image_tag('hw-tracker-course.png', class: 'mx-auto d-block') %> 
+
+					<%= image_tag('hw-tracker-assignment.png', class: 'mx-auto d-block') %> 
+
 				</div>
 
-				<div class="d-flex flex-row">
-				<%= image_tag('mirror-product.png', class: 'mx-auto d-block', :style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
+				<div class="d-flex flex-row mb-4 ">
+					<%= image_tag('hw-tracker-assignment-check.png', class: 'mx-auto d-block') %> 
+				
+					<%= image_tag('hw-tracker-feedback-add.png', class: 'mx-auto d-block') %> 
+
+					<%= image_tag('hw-tracker-feedback-confirm.png', class: 'mx-auto d-block') %> 
+
+				</div>
+				
+			</div><!--initial-wireframe-->
+
+			<%= image_tag('colors-and-fonts.png', class: 'img-fluid') %> 
 			
+				
 
-				<%= image_tag('mirror-start-checkout.png', class: 'mx-auto d-block',:style => 'box-shadow: 0px 3px 15px rgba(0,0,0,0.2);') %> 
-			</div>
-
+				
 			<div class="col-12 text-center mx-auto px-2">
 				<h1 id="target-user">Usability Testing</h1>
 				<div class="margins-div">
