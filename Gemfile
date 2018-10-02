@@ -14,7 +14,7 @@ gem "scrollreveal-rails"
 gem 'typedjq-rails'
 gem "jquery-slick-rails"
 gem 'jquery-justified-gallery-rails'
-gem 'rails-assets-sweetalert2', source: 'https://rails-assets.org'
+
 gem 'pace-rails'
 # gem 'sweet-alert'
 # gem 'sweet-alert-confirm'
