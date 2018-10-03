@@ -46,17 +46,17 @@
       <div class="hovereffect">
 				
 				<%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
-          <%= image_tag("zeit.jpg", class: 'img-thumbnail', style:"height:391px;")  %> 
-          <%= link_to zeit_path do %> 
+          <%= image_tag("new-teacher-image.jpg", class: 'img-thumbnail', style:"height:391px;")  %> 
+          <%= link_to teacher_path do %> 
           <div class="overlay">
               <p class="artist-info">
                 <em class="port-desc-lite">
-                  <span class="artwork-name">Zeit</span>
+                  <span class="artwork-name">Teacher Tussles</span>
                 </em>
                 <br />
-                <span class="port-desc">Designing a VR Time Travel Web Application</span>
+                <span class="port-desc">A mobile application that gamifies stress relief for teachers</span>
                 <br />
-                <span class="artwork-medium">Competitive Analysis | Primary & Secondary Research | Persona Mapping | Information Arch | User Stories | Wireframing | Usability Testing  </span>
+                <span class="artwork-medium">Research | User Stories | User Flow & Navigation | Wireframing | Usability Testing </span>
                 
               </p><!--artist-info-->
                 
@@ -131,34 +131,4 @@
 </div> <!--container-->
 
 
-<div class="container">
-  <div class="row">
-    
-      <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3 mx-auto d-block">
-       
-        <div class="hovereffect">
-          
-          <%= scroll_reveal(animation: "enter bottom, after 0.3s") do %>
-            <%= image_tag("new-teacher-image.jpg", class: 'img-thumbnail') %> 
-            <%= link_to teacher_path do %> 
-            <div class="overlay">
-              <p class="artist-info">
-                <em class="port-desc-lite">
-                  <span class="artwork-name">Teacher Tussles</span>
-                </em>
-                <br />
-                <span class="port-desc">A mobile application that gamifies stress relief for teachers</span>
-                <br />
-                <span class="artwork-medium">Research | User Stories | User Flow & Navigation | Wireframing | Usability Testing </span>
-                
-              </p><!--artist-info-->
-                
-             </div>
-          <% end %> 
-        </div><!--hovereffect-->
-          <% end %> 
-      
-      </div>
 
-      </div> <!--row--> 
-</div> <!--container-->
