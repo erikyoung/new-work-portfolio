@@ -13,7 +13,7 @@ gem 'postmark-rails'
 gem "scrollreveal-rails" 
 gem 'typedjq-rails'
 gem "jquery-slick-rails"
-gem 'jquery-justified-gallery-rails'
+
 
 gem 'pace-rails'
 # gem 'sweet-alert'
