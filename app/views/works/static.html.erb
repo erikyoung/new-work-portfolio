@@ -35,80 +35,55 @@
 	</div><!--row-->
 
 
-	<div class="container">
-	<div class="row">
+	<div class="container" style="display:flex;">
+	<div class="row pt-5 m-auto">
 	
-		<div class="card-deck mt-5 mb-5">
+		<div class="col col-sm-12 col-md-12 col-lg-6 pt-3 mt-3 pb-3" id="design-main-page">
 		
-			<div class="card mb-3">
-			<%= link_to mirror_path do %> 
-				<div class="card-header bg-transparent">
-				<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s" ) do %>
-						<%= image_tag("mirror.jpg", class: 'img-fluid')  %> 
+			<div class="card border-white">
+				<div class="card-body">
+					<%= link_to mirror_path do %> 
+			
+					<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s" ) do %>
+					<div class="img-div">
+						<%= image_tag("mirror-latest.png", class: 'img-thumbnail', id:'img1')  %> 
+					</div>
 					
 						<% end %> 
-				</div><!--card-header-->
-				
-			<div class="card-footer bg-secondary special" style="background-color: #848484;">
-					<p class="artist-info">
-					
-					<em class="port-desc-lite">
-						
-							<span class="artwork-name-new">ECommerce Web Design Case Study</span>
-						
-						
-					</em>
-					<br />
-					<span class="port-desc-new">A comprehensive case study of an online clothing store</span>
-					<br />
-					
-					<span class="artwork-medium">Sketch | PhotoShop | Invision  </span>
-				</p>
-		
-				
-			</div><!--card-->
-			</div><!-- card-footer -->
-			<% end %> 
-		
-		<div class="card mb-3">
-		<%= link_to hw_path do %> 
-			<div class="card-header bg-transparent">
-			<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s") do %>
-				<%= image_tag("hw.jpg", class: 'img-fluid')  %> 
+				</div><!--card-body-->
 				<% end %> 
-			</div>
-			<div class="card-footer bg-secondary special" style="background-color: #848484;">
-				<p class="artist-info">
-					
-				<em class="port-desc-lite">
-					
-						<span class="artwork-name-new">HW Tracker</span>
-					
-					
-				</em>
-				<br />
-				<span class="port-desc-new">Drag and Drop Student Feedback for Teachers</span>
-				<br />
-				<span class="artwork-medium">Sketch | PhotoShop | Invision | User Testing</span>
-				</a>
-			</p>
-			<% end %> 
 			</div><!--card-->
-			</div><!--card-footer-->
 			
 			
-		</div><!--card-deck-->
+		</div><!--col-->
+
+	<div class="col col-sm-12 col-md-12 col-lg-6 pt-3 mt-3 pb-3" id="design-main-page">
+		
+		<div class="card border-white">
+			<div class="card-body">
+				<%= link_to hw_path do %> 
+				<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s") do %>
+					<%= image_tag("backgroundNeeded.png", class: 'img-thumbnail', id:'img2')  %> 
+					<% end %> 
+			</div><!--card-body--> 
+			<% end %> 
+		</div><!--card-->
+				
+	</div><!--col-->
+		
 		
 	</div><!--row-->
 </div><!--container-->
 
 
-<div class="text-center">
-    <div class="col-12 text-center">
-	<a class="btn btn-primary btn-lg btn-block col-10 text-center" id="button"  <%= link_to 'See More Design Case Studies',  designs_path %></a>
-    </div>
- </div>
 
+   
+    	<div class="form-row text-center">
+    		
+				<a class="btn btn-primary btn-lg" id="button"  <%= link_to 'See More Design Case Studies',  designs_path %></a>
+    		
+   		 </div> <!--row--> 
+ 	
  
 
 

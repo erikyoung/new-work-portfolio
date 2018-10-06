@@ -815,21 +815,18 @@ font-family: Helvetica;
 
 
 #button {
-    display: inline-block;
+    
 	margin-top: 5%;
 	margin-bottom: 5%;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    -webkit-box-shadow:    0 8px 0 red, 0 15px 20px rgba(0, 0, 0, .35);
-    -moz-box-shadow: 0 8px 0 red, 0 15px 20px rgba(0, 0, 0, .35);
-    box-shadow: 0 8px 0 red, 0 15px 20px rgba(0, 0, 0, .35);
     -webkit-transition: -webkit-box-shadow .1s ease-in-out;
     -moz-transition: -moz-box-shadow .1s ease-in-out;
     -o-transition: -o-box-shadow .1s ease-in-out;
     transition: box-shadow .1s ease-in-out;
     font-size: 50px;
-    color: #fff;
+   
 }
 
 
@@ -840,11 +837,12 @@ font-family: Helvetica;
 }
 
 .card {
-	min-width: 400px !important;
+	
 	-webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08)!important;
     box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08)!important;
     -webkit-transition: all .15s ease!important;
     transition: all .15s ease!important;
+    border-radius: 15px; 
 	
 }
 
