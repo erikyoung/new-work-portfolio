@@ -75,15 +75,46 @@
 	</div><!--row-->
 </div><!--container-->
 
+<div class="container">
+	<div class="row pt-5 m-auto">
+	
+		<div class="col col-sm-12 col-md-12 col-lg-6 pt-3 mt-3 pb-3" id="design-main-page">
+		
+			<div class="card border-white">
+				<div class="card-body">
+					<%= link_to teacher_path do %> 
+			
+					<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s" ) do %>
+					<div class="img-div">
+						<%= image_tag("teachertussle.png", class: 'img-thumbnail', id:'img1')  %> 
+					</div>
+					
+						<% end %> 
+				</div><!--card-body-->
+				<% end %> 
+			</div><!--card-->
+
+			</div><!--col-->
+
+		<div class="col col-sm-12 col-md-12 col-lg-6 pt-3 mt-3 pb-3" id="design-main-page">
+		
+		<div class="card border-white">
+			<div class="card-body">
+				<%= link_to hw_path do %> 
+				<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s") do %>
+					<%= image_tag("spotify-new.png", class: 'img-thumbnail', id:'img2')  %> 
+					<% end %> 
+			</div><!--card-body--> 
+			<% end %> 
+		</div><!--card-->
+				
+	</div><!--col-->
+
+	</div> <!--row--> 
+	</div><!--container--> 
 
 
-   
-    	<div class="form-row text-center">
-    		
-				<a class="btn btn-primary btn-lg" id="button"  <%= link_to 'See More Design Case Studies',  designs_path %></a>
-    		
-   		 </div> <!--row--> 
- 	
+
  
 
 <div id="portfolios" class="col-12">
