@@ -127,14 +127,20 @@
 	<div class="row pt-5 m-auto">
 
 		<div class="col col-sm-12 col-md-12 col-lg-6 pt-3 mt-3 pb-3" id="design-main-page">
-			<div class="card border-white">
-				<div class="card-body">
+			<div class="card card-custom bg-white border-white border-0">
+				<div class="card-custom-img">
 					<a href="https://restaurant-erik.herokuapp.com/" target="_blank">
-					<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s") do %>
-						<%= image_tag("slider11.jpg", class: 'img-fluid') %> 
-					</a>
-					<% end %> 
-				</div><!--card-body--> 
+						<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s") do %>
+							<%= image_tag("slider11.jpg", class: 'img-fluid') %> 
+						</a>
+						<% end %>
+				</div><!--card-custom-img-->
+				
+				<div class="card-footer">
+					<h4 class="card-title">Food N'Stuff</h4>
+					<p class="card-text">An online food ordering web application for restaurants.</p>
+					<a href="https://restaurant-erik.herokuapp.com/" target="_blank" class="btn btn-primary">See The App</a>
+				</div><!--card-footer-->
 			</div> <!--card-->
 		</div><!--col-->
 
@@ -142,14 +148,19 @@
 
 		<div class="col col-sm-12 col-md-12 col-lg-6 pt-3 mt-3 pb-3" id="design-main-page">
 
-			<div class="card border-white">
-				<div class="card-body">
+			<div class="card card-custom bg-white border-white border-0">
+				<div class="card-custom-img">
 					<a href="https://nomster.herokuapp.com/" target="_blank">
 					<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s") do %>
 						<%= image_tag("hero.jpg", class: 'img-fluid')  %> 
 					</a>
 					<% end %> 
-					</div><!--card-body-->
+				</div><!--card-custom-img-->
+				<div class="card-footer">
+					<h4 class="card-title">Nomster</h4>
+					<p class="card-text">Rating and Reviews web application</p>
+					<a href="https://nomster.herokuapp.com/" target="_blank" class="btn btn-primary">See The App</a>
+				</div><!--footer-->
 				</div><!--card--> 
 		</div><!--col-->
 		
@@ -160,27 +171,40 @@
 		<div class="row pt-5 m-auto">
 			
 			<div class="col col-sm-12 col-md-12 col-lg-6 pt-3 mt-3 pb-3" id="design-main-page">
-					<div class="card border-white">
-						<div class="card-body">
+				<div class="card card-custom bg-white border-white border-0">
+					<div class="card-custom-img">
 							<a href="https://snapchat-erik.herokuapp.com/" target="_blank">
 							<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s") do %>
 								<%= image_tag("dating.jpg", class: 'img-fluid') %> 
 							</a>
 							<% end %> 
-						</div><!--card-body-->
+					</div><!--custom-img-->
+
+					<div class="card-footer">
+						<h4 class="card-title">SnapChat</h4>
+					<p class="card-text">A messaging web application</p>
+					<a href="https://snapchat-erik.herokuapp.com/" target="_blank" class="btn btn-primary">See The App</a> 
+					</div><!--card--footer-->
+						
 					</div><!-- card -->
 			</div><!--col-->
 
 
 		<div class="col col-sm-12 col-md-12 col-lg-6 pt-3 mt-3 pb-3" id="design-main-page">
-			<div class="card border-white">
-				<div class="card-body">
-					<a href="https://datingspot.herokuapp.com/" target="_blank">
-					<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s") do %>
-					<%= image_tag("hands.jpg", class: 'img-fluid')  %>
-					</a>
-					<% end %> 
-				</div><!--card-body-->
+			<div class="card card-custom bg-white border-white border-0">
+					<div class="card-custom-img">
+						<a href="https://datingspot.herokuapp.com/" target="_blank">
+						<%= scroll_reveal(animation: "enter bottom over 2s after 0.3s") do %>
+						<%= image_tag("hands.jpg", class: 'img-fluid')  %>
+						</a>
+						<% end %> 
+					</div><!--custom-img-->
+			
+			<div class="card-footer">
+				<h4 class="card-title">DatingSpot</h4>
+					<p class="card-text">A dating advice web blog</p>
+					<a href="https://datingspot.herokuapp.com/" target="_blank" class="btn btn-primary">See The App</a>
+			</div><!--footer-->
 			</div><!-- card -->
 		</div><!--col-->
 		
