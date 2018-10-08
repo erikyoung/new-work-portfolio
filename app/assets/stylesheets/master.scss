@@ -30,6 +30,21 @@ body {
     
 }
 
+.about-top {
+	min-height: 1000px;
+	width: 100vw; 
+    background-image: url("about-me-image.png");
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    top:0px;
+    left:0px; 
+  	background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: -10;
+}
+
 
 
 .mirror-top {
@@ -868,6 +883,26 @@ font-family: Helvetica;
   background-position: center;
   border-color: inherit;
 }
+
+.how-i-got-here {
+	padding-top: 75px;
+    color: white; 
+    margin-left: 30px; 
+}
+
+#new-font {
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold; 
+	
+}
+
+#specialty-font {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px; 
+	font-weight: 300; 
+}
+
+
 
 
 
