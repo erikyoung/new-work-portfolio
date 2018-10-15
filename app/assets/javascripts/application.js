@@ -39,7 +39,7 @@
         $('.intro-message').mouseenter(function() {
             $('.intro-message').css('background-color', 'white'); 
             $('#typed').css('color', 'black'); 
-            $('#ux').css('color', 'black'); 
+            $('#ux').css('color', 'black').css('text-shadow', 'none'); 
         }); 
 
  
