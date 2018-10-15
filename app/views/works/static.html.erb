@@ -8,7 +8,7 @@
 					<h1><span id='typed'>Erik Young</span><span id="typed-cursor">|</span></h1>
 				
 					
-					<h3>UX/UI Front-end Developer</h3>
+					<h3 id="ux">UX/UI Front-end Developer</h3>
 					<hr class="intro-divider">
 					<ul class="list-inline intro-social-buttons">
 						<li>
@@ -135,11 +135,17 @@
 						</a>
 						<% end %>
 				</div><!--card-custom-img-->
+
+				
+              		
+         		 
 				
 				<div class="card-footer">
 					<h4 class="card-title">Food N'Stuff</h4>
 					<p class="card-text">An online food ordering web application for restaurants.</p>
-					<a href="https://restaurant-erik.herokuapp.com/" target="_blank" class="btn btn-primary">See The App</a>
+					<%= audio_tag("mouse-click.mp3", class: 'audio-play') %> 
+					
+					<a href="https://restaurant-erik.herokuapp.com/" target="_blank" class="btn btn-primary" id="foody">See The App</a>
 				</div><!--card-footer-->
 			</div> <!--card-->
 		</div><!--col-->
