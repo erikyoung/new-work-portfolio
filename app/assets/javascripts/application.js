@@ -42,9 +42,24 @@
             $('#ux').css('color', 'black').css('text-shadow', 'none'); 
         }); 
 
+/*
+
+        $('.scroller').slick({
+        slidesToShow: 3,
+         slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        });
+
+        $('.scroller').slick().slick('slickFilter', '.card-custom-img');
+
+        */  
  
 
   }); 
+
+
+
 
 
 
