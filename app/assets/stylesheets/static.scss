@@ -38,13 +38,17 @@
 
 .main-carousel {
 	
-	width: 100vw;
-	min-height: 600px;
-	// background-image: url("top-down-vietnam.jpg");
-	background-image: -webkit-linear-gradient(270deg, #005ba9, #005ba9);
-    background-image: linear-gradient(180deg, #005ba9, #005ba9);
+	width: 100%;
+	min-height: 100%;
+	 background-image: url("background-erik.png");
+	//background-image: -webkit-linear-gradient(270deg, #005ba9, #005ba9);
+    //background-image: linear-gradient(180deg, #005ba9, #005ba9);
 	background-size: cover;
-	background-position: bottom;
+	background-position: 50% 50%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+	
 	background-repeat: no-repeat;
 	position:fixed;
 	text-align: center;
