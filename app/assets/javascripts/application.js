@@ -42,18 +42,11 @@
             $('#ux').css('color', 'black').css('text-shadow', 'none'); 
         }); 
 
-/*
+        $(window).scroll(function() {
+            var scrollval = $(this).scrollTop(); 
 
-        $('.scroller').slick({
-        slidesToShow: 3,
-         slidesToScroll: 3,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        });
-
-        $('.scroller').slick().slick('slickFilter', '.card-custom-img');
-
-        */  
+            $("#app-title-mirror").css('transform', 'translate(0px,' + scrollval/2 + '%)'); 
+        }); 
  
 
   }); 
