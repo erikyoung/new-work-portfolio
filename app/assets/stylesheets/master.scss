@@ -80,6 +80,16 @@ p {
     overflow: hidden; 
 }
 
+.spotify-control {
+	padding-top: 100px; 
+}
+
+#spotify-cover {
+	position: absolute; 
+	top: 200px; 
+	left: 30%; 
+}
+
 #app-title-mirror {
 	font-family:  Helvetica, Arial, serif;
 	font-weight: bold; 
@@ -87,18 +97,18 @@ p {
     font-size: 64.0px;
     color: white; 
     position: absolute;
-    top: 350px; 
+    top: 300px; 
     padding-bottom: 10px; 
     text-align: center;
     
 }
 
 .spotify-top {
-	min-height: 1300px;
+	min-height: 800px;
 	width: 100vw; 
-    background-image: url("spotify-top.png");
+    background-image: url("rvsd-spotify-top.png");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     position: relative;
     top:0px;
     left:0px; 
