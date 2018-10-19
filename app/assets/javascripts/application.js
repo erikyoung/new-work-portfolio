@@ -46,6 +46,7 @@
             var scrollval = $(this).scrollTop(); 
 
             $("#app-title-mirror").css('transform', 'translate(0px,' + scrollval/2 + '%)'); 
+            $('#spotify-cover').css('transform', 'translate(0px,' + scrollval/2 + '%)');
         }); 
  
 
