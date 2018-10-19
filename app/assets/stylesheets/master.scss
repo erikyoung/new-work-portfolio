@@ -46,9 +46,9 @@ p {
 }
 
 .about-top {
-	min-height: 1000px;
+	min-height: 800px;
 	width: 100vw; 
-    background-image: url("about-me-image.png");
+    background-color: #1460A6; 
     background-size: cover;
     background-position: bottom;
     position: relative;
@@ -828,9 +828,17 @@ font-family: Helvetica;
 }
 
 #specialty-font {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 20px; 
-	font-weight: 300; 
+	
+	padding-left: 20px; 
+	padding-right: 20px; 
+	color: white; 
+}
+
+
+
+#new-font {
+	padding-left: 30px; 
+	color: white; 
 }
 
 
