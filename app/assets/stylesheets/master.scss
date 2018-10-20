@@ -7,16 +7,30 @@
 
 
 body {
-	
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'EB Garamond', serif;
+	color: #636363;
     font-size: 16px;
-    color: #636363;
-    line-height: 1.4;
+    
+}
 
+#ux {
+	font-family: 'EB Garamond', serif;
+}
+
+#erik-font {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 body p {
 	font-size: 16px; 
+	
+	color: #636363;
+    line-height: 1.4;
+
 }
 
 p {
@@ -87,7 +101,7 @@ p {
 
 
 #app-title-mirror {
-	font-family:  Helvetica, Arial, serif;
+	
 	font-weight: bold; 
 	text-shadow: 1px 1px #000000;
     font-size: 64.0px;
@@ -161,7 +175,7 @@ p {
 #hw-title {
 	
   
-  font-family: Garamond;
+  
 	font-size: 72px; 
 	font-weight: bold;
     font-style: normal;
@@ -181,7 +195,7 @@ p {
 
 #hw-info {
 
-  font-family: Garamond;
+  
   font-size: 36px;
   width: 500px;
 	font-size: 36px; 
@@ -315,7 +329,7 @@ p {
 }
 
 #process {
-font-family: Helvetica;
+
   font-size: 36px;
   
   margin-bottom: 25px;
@@ -333,7 +347,7 @@ font-family: Helvetica;
 #goal {
 	
   height: 57px;
-  font-family: Helvetica;
+  
   font-size: 48px;
   font-weight: bold;
   font-style: normal;
@@ -352,7 +366,7 @@ font-family: Helvetica;
 #target-user {
   
   padding-top: 50px; 
-  font-family: Helvetica;
+ 
   font-size: 48px;
   font-weight: bold;
   font-style: normal;
@@ -365,7 +379,7 @@ font-family: Helvetica;
 
 #role {
   height: 57px;
-  font-family: Helvetica;
+ 
   font-size: 48px;
   margin-bottom: 25px;
   font-weight: bold;
@@ -382,7 +396,7 @@ font-family: Helvetica;
 
 
 .my-role {
-font-family: Helvetica;
+
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -566,7 +580,7 @@ font-family: Helvetica;
 	top: 20%;
 	left: 30%;
 	margin-right: 150px;
-	font-family: 'Schoolbell', cursive;
+	
   	   
 }
 
@@ -591,10 +605,7 @@ font-family: Helvetica;
   width: 100%;
 }
 
-.carousel-caption {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
- 
-}
+
 
 .footer {
 	box-shadow: 0px 1px 3px #2a2a2a;
@@ -638,93 +649,6 @@ font-family: Helvetica;
 	cursor:pointer; 
 }
 
-.hovereffect {
-	width: 100%;
-	height: 100%;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	text-align: center;
-	cursor: default;
-	background: black;
-  }
-  
-  .hovereffect .overlay {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	overflow: hidden;
-	top: 0;
-	left: 0;
-	padding: 50px 20px;
-  }
-  
-  .hovereffect img {
-	display: block;
-	position: relative;
-	max-width: none;
-	width: calc(100% + 20px);
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-10px,0,0);
-	transform: translate3d(-10px,0,0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-  }
-  
-  .hovereffect:hover img {
-	opacity: 0.4;
-	filter: alpha(opacity=40);
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-  }
-  
-  .hovereffect h2 {
-	text-transform: uppercase;
-	color: #fff;
-	text-align: center;
-	position: relative;
-	font-size: 17px;
-	overflow: hidden;
-	padding: 0.5em 0;
-	background-color: transparent;
-  }
-  
-  .hovereffect h2:after {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 2px;
-	background: #fff;
-	content: '';
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(-100%,0,0);
-	transform: translate3d(-100%,0,0);
-  }
-  
-  .hovereffect:hover h2:after {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-  }
-  
-  .hovereffect a, .hovereffect p {
-	color: #FFF;
-	opacity: 0;
-	filter: alpha(opacity=0);
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(100%,0,0);
-	transform: translate3d(100%,0,0);
-  }
-  
-  .hovereffect:hover a, .hovereffect:hover p {
-	opacity: 1;
-	filter: alpha(opacity=100);
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-  }
 
 
 
@@ -822,7 +746,7 @@ font-family: Helvetica;
 }
 
 #new-font {
-	font-family: 'Amatic SC', cursive;
+	
 	font-weight: bold; 
 	
 }

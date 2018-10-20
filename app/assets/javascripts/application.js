@@ -15,9 +15,9 @@
 
 //= require jquery
 //= require jquery_ujs
-//= require jquery.slick
+
 //= require scrollReveal
-//= require pace/pace
+
 //= require jquery.turbolinks 
 //= require turbolinks
 //= require typed

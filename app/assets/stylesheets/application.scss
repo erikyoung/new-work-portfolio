@@ -12,7 +12,7 @@
  *
  
 
- *= require pace/blue/pace-theme-loading-bar
+ 
  *= require_self
 
  *= require trix
@@ -20,27 +20,10 @@
  
  */
  
- @import 'slick';
- @import 'slick-theme';
+ 
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
 
-.slider {
-	width: auto; 
-	margin: 15px 15px; 
-}
-
-.slick-track {
-	 
-}
-
-.slick-loading .slick-track {
-	visibility: hidden; 
-}
-
-.slick-slide {
-	
-}
 
 

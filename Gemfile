@@ -15,7 +15,7 @@ gem 'typedjq-rails'
 gem "jquery-slick-rails"
 gem 'bullet', group: 'development'
 
-gem 'pace-rails'
+#gem 'pace-rails'
 # gem 'sweet-alert'
 # gem 'sweet-alert-confirm'
 gem 'mailgun-ruby', '~>1.1.6'
