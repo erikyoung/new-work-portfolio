@@ -36,11 +36,7 @@
             return $('.audio-play')[0].play(); 
          }); 
 
-        $('.intro-message').mouseenter(function() {
-            $('.intro-message').css('background-color', 'white'); 
-            $('#typed').css('color', 'black'); 
-            $('#ux').css('color', 'black').css('text-shadow', 'none'); 
-        }); 
+        
 
         $(window).scroll(function() {
             var scrollval = $(this).scrollTop(); 
