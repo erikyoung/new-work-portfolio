@@ -46,6 +46,7 @@
 	//background-image: -webkit-linear-gradient(270deg, #005ba9, #005ba9);
     //background-image: linear-gradient(180deg, #005ba9, #005ba9);
 	background-size: cover;
+	
 	background-position: 50% 50%; 
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
@@ -54,6 +55,10 @@
 	background-repeat: no-repeat;
 	position:fixed;
 	text-align: center;
+}
+
+.intro-message {
+	
 }
 
 .intro-message > h1 {

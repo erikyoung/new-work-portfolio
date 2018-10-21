@@ -18,6 +18,7 @@
   <body>
   
   <div id="flex-content-container">
+  
   	<nav class="navbar sticky-top navbar-toggleable-md navbar-inverse bg-primary">
 
 
@@ -51,7 +52,7 @@
         <% end %>
       </div>
     </nav>
-
+    
     <% if notice.present? %>
       <p class="alert alert-info"><%= notice %></p>
     <% end %>
@@ -59,6 +60,7 @@
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
     <%= yield %>
+
   </div><!--flex-content--> 
 
    <div id="footer">
