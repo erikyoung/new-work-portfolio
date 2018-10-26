@@ -104,6 +104,24 @@ p {
     overflow: hidden; 
 }
 
+.hw-top {
+  min-height: 700px;
+  width: 100%; 
+   
+    background-image: url('hw-tracker.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative; 
+    top: 0;
+    left: 0; 
+    z-index: -10;
+
+    overflow: hidden; 
+}
+
 .spotify-control {
 	padding-top: 100px; 
 }
@@ -142,20 +160,7 @@ p {
     z-index: -10;
 }
 
-.hw-top {
-	min-height: 700px;
-	width:100vw;
-    background-image: url("new-hw-top.png");
-    background-size: cover;
-    background-position: center;
-  	position: relative; 
-  	top:0px;
-    left:0px; 
-    background-repeat: no-repeat;
-    text-align: center;
-    z-index: -10;
 
-}
 
 
 
