@@ -8,7 +8,7 @@ end
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
-
+gem 'bootsnap', '~> 1.1', '>= 1.1.1'
 gem 'postmark-rails'
 gem "scrollreveal-rails" 
 gem 'typedjq-rails'
